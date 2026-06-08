@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flinthawke.github.io/blackship/sitemap.xml
