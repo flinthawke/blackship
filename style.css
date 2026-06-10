@@ -235,8 +235,13 @@ main > h1 {
     color: var(--muted);
     border-top: 1px solid var(--line);
     font-size: .9rem;
+    text-align: center;
 }
-.site-footer p { margin: 4px 0; }
+
+.site-footer p {
+    margin: 4px 0;
+    text-align: center;
+}
 
 /* Tablet */
 @media (max-width: 860px) {
