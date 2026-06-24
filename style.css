@@ -88,7 +88,7 @@ main > h1 {
 
     /* hero-bg.png는 배경 이미지라서 원본 이미지 높이를 따르지 않는다.
        화면 높이는 여기서 직접 잡는다. */
-    min-height: clamp(170px, 22vw, 280px);
+    min-height: clamp(140px, 18vw, 220px);
 
     margin-bottom: 30px;
     overflow: hidden;
@@ -286,7 +286,7 @@ main > h1 {
         padding-top: 22px;
     }
     .hero {
-        min-height: 170px;
+        min-height: 120px;
         background-position: center center;
     }
     .grid {

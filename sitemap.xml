@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://blackship.kr/en/index.html</loc></url>
-  <url><loc>https://blackship.kr/en/recent.html</loc></url>
   <url><loc>https://blackship.kr/en/electronics.html</loc></url>
   <url><loc>https://blackship.kr/en/living.html</loc></url>
   <url><loc>https://blackship.kr/en/hobby.html</loc></url>
@@ -150,7 +149,6 @@
   <url><loc>https://blackship.kr/en/139.html</loc></url>
   <url><loc>https://blackship.kr/en/140.html</loc></url>
   <url><loc>https://blackship.kr/index.html</loc></url>
-  <url><loc>https://blackship.kr/recent.html</loc></url>
   <url><loc>https://blackship.kr/electronics.html</loc></url>
   <url><loc>https://blackship.kr/living.html</loc></url>
   <url><loc>https://blackship.kr/hobby.html</loc></url>

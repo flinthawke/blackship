@@ -1,5 +1,4 @@
 https://blackship.kr/en/index.html
-https://blackship.kr/en/recent.html
 https://blackship.kr/en/electronics.html
 https://blackship.kr/en/living.html
 https://blackship.kr/en/hobby.html
@@ -148,7 +147,6 @@ https://blackship.kr/en/138.html
 https://blackship.kr/en/139.html
 https://blackship.kr/en/140.html
 https://blackship.kr/index.html
-https://blackship.kr/recent.html
 https://blackship.kr/electronics.html
 https://blackship.kr/living.html
 https://blackship.kr/hobby.html
