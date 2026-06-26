@@ -251,6 +251,30 @@ main > h1 {
     font-size: 1.4rem;
 }
 
+
+/* Badamail */
+.badamail-list {
+    display: grid;
+    gap: 14px;
+}
+.badamail-item {
+    padding: 16px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 0;
+    box-shadow: var(--shadow);
+}
+.badamail-date {
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: .9rem;
+    font-weight: 700;
+}
+.badamail-text {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
 /* Footer */
 .site-footer {
     width: min(1180px, calc(100% - 36px));

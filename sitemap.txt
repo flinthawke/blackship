@@ -6,6 +6,7 @@ https://blackship.kr/en/fashion.html
 https://blackship.kr/en/car.html
 https://blackship.kr/en/pet.html
 https://blackship.kr/en/beauty.html
+https://blackship.kr/en/badamail.html
 https://blackship.kr/en/1.html
 https://blackship.kr/en/2.html
 https://blackship.kr/en/3.html
@@ -154,6 +155,7 @@ https://blackship.kr/fashion.html
 https://blackship.kr/car.html
 https://blackship.kr/pet.html
 https://blackship.kr/beauty.html
+https://blackship.kr/badamail.html
 https://blackship.kr/1.html
 https://blackship.kr/2.html
 https://blackship.kr/3.html
