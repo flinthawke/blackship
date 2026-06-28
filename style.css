@@ -274,6 +274,29 @@ main > h1 {
     margin: 0;
     white-space: pre-wrap;
 }
+.badamail-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.badamail-post {
+    display: grid;
+    gap: 16px;
+    max-width: 860px;
+}
+.badamail-post p {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.badamail-post-image {
+    display: block;
+    width: 100%;
+    max-width: 860px;
+    height: auto;
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+}
 
 /* Footer */
 .site-footer {
