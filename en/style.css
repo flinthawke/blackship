@@ -257,6 +257,16 @@ main > h1 {
     display: grid;
     gap: 14px;
 }
+
+.coupang-list {
+    display: grid;
+    gap: 14px;
+}
+
+.coupang-list .product-card {
+    width: 100%;
+    max-width: 420px;
+}
 .badamail-item {
     padding: 16px;
     background: var(--card);

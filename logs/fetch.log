@@ -1,5 +1,5 @@
 Blackship AliExpress fetch log
-created_at: 2026-07-07 22:21:00
+created_at: 2026-07-08 19:17:37
 ========================================
 
 [ko] AliExpress API 수집
@@ -73,15 +73,15 @@ API 원본     : 20
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 17
-변환 성공    : 17
+API 원본     : 18
+변환 성공    : 18
 중복 제거    : 0
-최종 추가    : 17
-누적 상품    : 129
+최종 추가    : 18
+누적 상품    : 130
 원인         : 정상 수집
 ----------------------------------------
 저장 파일      : /home/runner/work/System/System/data/products.json
-최종 저장 상품 : 129
+최종 저장 상품 : 130
 ========================================
 
 [en] AliExpress API 수집
@@ -155,13 +155,13 @@ API 원본     : 20
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 15
-변환 성공    : 15
+API 원본     : 13
+변환 성공    : 13
 중복 제거    : 0
-최종 추가    : 15
-누적 상품    : 126
+최종 추가    : 13
+누적 상품    : 124
 원인         : 정상 수집
 ----------------------------------------
 저장 파일      : /home/runner/work/System/System/data/products_en.json
-최종 저장 상품 : 126
+최종 저장 상품 : 124
 ========================================
