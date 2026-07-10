@@ -3,15 +3,15 @@
    읽기 쉬운 정적 쇼핑 페이지용 CSS
 ===================================================== */
 :root {
-    --bg: #f7f7f2;
+    --bg: #eef7f4;
     --card: #fff;
-    --ink: #1f2933;
-    --muted: #697586;
-    --line: #e5e7eb;
-    --accent: #111827;
-    --soft: #fef3c7;
-    --danger: #b91c1c;
-    --shadow: 0 14px 30px rgba(15, 23, 42, .08);
+    --ink: #17363a;
+    --muted: #5f7475;
+    --line: #cfe3df;
+    --accent: #0b6b69;
+    --soft: #dff3ec;
+    --danger: #a94a3f;
+    --shadow: 0 14px 30px rgba(13, 76, 73, .10);
 }
 
 /* Reset */
@@ -297,6 +297,88 @@ main > h1 {
     height: auto;
     border: 1px solid var(--line);
     box-shadow: var(--shadow);
+}
+
+
+/* Home Deck */
+.home-voyage {
+    margin: 0 0 28px;
+    padding: 24px;
+    background:
+        linear-gradient(135deg, rgba(255,255,255,.04), rgba(255,255,255,0)),
+        #0b5f63;
+    color: #f4eedf;
+    border: 1px solid #c7a75a;
+    box-shadow: var(--shadow);
+}
+.home-voyage .eyebrow,
+.home-log .eyebrow {
+    margin: 0 0 8px;
+    color: #e0bf67;
+    font-weight: 900;
+}
+.home-voyage h2 { margin: 0 0 8px; font-size: clamp(1.4rem, 3vw, 2rem); }
+.home-voyage p:last-child { margin-bottom: 0; color: #e8f3ef; }
+.home-route-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:24px;
+    margin-bottom:28px;
+}
+.treasure-route {
+    display: grid;
+    grid-template-columns: minmax(160px, 210px) 1fr;
+    gap: 0;
+    margin:0;
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+}
+.treasure-route .route-image {
+    min-height: 280px;
+    border-right: 1px solid var(--line);
+    border-bottom: 0;
+}
+.route-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding: clamp(22px, 4vw, 42px);
+}
+.route-copy h2 {
+    margin: 0;
+    font-size: clamp(1.35rem, 2.2vw, 1.9rem);
+    line-height: 1.25;
+    min-height: 2.6em;
+}
+.route-copy p { margin: 0; color: var(--muted); }
+.route-product-title { color: var(--ink) !important; font-weight: 800; }
+.route-price { color: var(--danger) !important; font-size: 1.2rem; font-weight: 900; }
+.route-button { width: auto; align-self: flex-start; min-width: 180px; }
+.home-log {
+    margin: 34px 0 24px;
+    padding: clamp(22px, 4vw, 38px);
+    background: #f8fcfa;
+    border: 1px solid #a8ccc5;
+    box-shadow: var(--shadow);
+}
+.home-log h2 { margin: 0 0 18px; }
+.home-log-entry { padding: 14px 0; border-top: 1px solid #e8dfc5; }
+.home-log-entry:first-of-type { border-top: 0; padding-top: 0; }
+.home-log-entry p { margin: 4px 0 0; white-space: pre-wrap; }
+.home-log-more { display: inline-block; margin-top: 12px; font-weight: 900; text-decoration: underline; }
+.home-update {
+    margin-top: 30px;
+    color: var(--muted);
+    font-size: .92rem;
+    text-align: center;
+}
+@media (max-width: 760px) {
+    .home-route-grid{grid-template-columns:1fr;}
+    .treasure-route { grid-template-columns: 1fr; }
+    .treasure-route .route-image { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+    .route-button { width: 100%; }
 }
 
 /* Footer */
