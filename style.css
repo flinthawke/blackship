@@ -343,19 +343,32 @@ main > h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 12px;
-    padding: clamp(22px, 4vw, 42px);
+    gap: 6px;
+    padding: clamp(11px, 2vw, 21px);
 }
 .route-copy h2 {
     margin: 0;
     font-size: clamp(1.35rem, 2.2vw, 1.9rem);
     line-height: 1.25;
-    min-height: 2.6em;
 }
 .route-copy p { margin: 0; color: var(--muted); }
-.route-product-title { color: var(--ink) !important; font-weight: 800; }
+.route-product-title {
+    color: var(--ink) !important;
+    font-weight: 800;
+    line-height: 1.4;
+    height: calc(1.4em * 4);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
 .route-price { color: var(--danger) !important; font-size: 1.2rem; font-weight: 900; }
-.route-button { width: auto; align-self: flex-start; min-width: 180px; }
+.route-button {
+    width: auto;
+    align-self: flex-start;
+    min-width: 180px;
+    margin-top: auto;
+}
 .home-log {
     margin: 34px 0 24px;
     padding: clamp(22px, 4vw, 38px);

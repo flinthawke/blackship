@@ -134,9 +134,6 @@ https://blackship.kr/en/124.html
 https://blackship.kr/en/125.html
 https://blackship.kr/en/126.html
 https://blackship.kr/en/127.html
-https://blackship.kr/en/128.html
-https://blackship.kr/en/129.html
-https://blackship.kr/en/130.html
 https://blackship.kr/index.html
 https://blackship.kr/random.html
 https://blackship.kr/hidden.html
@@ -273,6 +270,3 @@ https://blackship.kr/124.html
 https://blackship.kr/125.html
 https://blackship.kr/126.html
 https://blackship.kr/127.html
-https://blackship.kr/128.html
-https://blackship.kr/129.html
-https://blackship.kr/130.html
