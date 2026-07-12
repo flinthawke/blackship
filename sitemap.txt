@@ -4,6 +4,11 @@ https://blackship.kr/en/hidden.html
 https://blackship.kr/en/value.html
 https://blackship.kr/en/popular.html
 https://blackship.kr/en/badamail.html
+https://blackship.kr/en/badamail-20260630-050705.html
+https://blackship.kr/en/badamail-20260704-212449.html
+https://blackship.kr/en/badamail-20260706-224421.html
+https://blackship.kr/en/badamail-20260712-091758.html
+https://blackship.kr/en/badamail-20260712-140537.html
 https://blackship.kr/en/1.html
 https://blackship.kr/en/2.html
 https://blackship.kr/en/3.html
@@ -405,6 +410,11 @@ https://blackship.kr/hidden.html
 https://blackship.kr/value.html
 https://blackship.kr/popular.html
 https://blackship.kr/badamail.html
+https://blackship.kr/badamail-20260630-050705.html
+https://blackship.kr/badamail-20260704-212449.html
+https://blackship.kr/badamail-20260706-224421.html
+https://blackship.kr/badamail-20260712-091758.html
+https://blackship.kr/badamail-20260712-140537.html
 https://blackship.kr/1.html
 https://blackship.kr/2.html
 https://blackship.kr/3.html
@@ -800,13 +810,3 @@ https://blackship.kr/392.html
 https://blackship.kr/393.html
 https://blackship.kr/394.html
 https://blackship.kr/395.html
-https://blackship.kr/badamail-20260630-050705.html
-https://blackship.kr/badamail-20260704-212449.html
-https://blackship.kr/badamail-20260706-224421.html
-https://blackship.kr/badamail-20260712-091758.html
-https://blackship.kr/badamail-20260712-140537.html
-https://blackship.kr/en/badamail-20260630-050705.html
-https://blackship.kr/en/badamail-20260704-212449.html
-https://blackship.kr/en/badamail-20260706-224421.html
-https://blackship.kr/en/badamail-20260712-091758.html
-https://blackship.kr/en/badamail-20260712-140537.html
