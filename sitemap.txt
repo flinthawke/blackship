@@ -377,7 +377,6 @@ https://blackship.kr/370.html
 https://blackship.kr/371.html
 https://blackship.kr/372.html
 https://blackship.kr/373.html
-https://blackship.kr/374.html
 https://blackship.kr/en/index.html
 https://blackship.kr/en/random.html
 https://blackship.kr/en/hidden.html
@@ -753,6 +752,11 @@ https://blackship.kr/en/366.html
 https://blackship.kr/en/367.html
 https://blackship.kr/en/368.html
 https://blackship.kr/en/369.html
+https://blackship.kr/en/370.html
+https://blackship.kr/en/371.html
+https://blackship.kr/en/372.html
+https://blackship.kr/en/373.html
+https://blackship.kr/en/374.html
 https://blackship.kr/badamail-20260630-050705.html
 https://blackship.kr/badamail-20260704-212449.html
 https://blackship.kr/badamail-20260706-224421.html

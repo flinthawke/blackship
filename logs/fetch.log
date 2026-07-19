@@ -1,5 +1,5 @@
 Blackship AliExpress fetch log
-created_at: 2026-07-19 03:56:05
+created_at: 2026-07-20 03:58:56
 ========================================
 
 [ko] AliExpress API 수집
@@ -153,11 +153,11 @@ API 원본     : 20
 자동차용품
 category     : car
 keyword      : car
-API 원본     : 19
-변환 성공    : 19
+API 원본     : 20
+변환 성공    : 20
 중복 제거    : 2
-최종 추가    : 17
-누적 상품    : 263
+최종 추가    : 18
+누적 상품    : 264
 원인         : 정상 수집, 중복 2개 제외
 ----------------------------------------
 자동차용품
@@ -165,10 +165,10 @@ category     : car
 keyword      : vehicle accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
+중복 제거    : 1
+최종 추가    : 19
 누적 상품    : 283
-원인         : 정상 수집
+원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 반려동물
 category     : pet
@@ -183,12 +183,12 @@ API 원본     : 20
 반려동물
 category     : pet
 keyword      : pet
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 2
-최종 추가    : 17
-누적 상품    : 320
-원인         : 정상 수집, 중복 2개 제외
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 1
+최종 추가    : 19
+누적 상품    : 322
+원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 반려동물
 category     : pet
@@ -197,17 +197,17 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 10
 최종 추가    : 9
-누적 상품    : 329
+누적 상품    : 331
 원인         : 정상 수집, 중복 10개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 16
-변환 성공    : 16
+API 원본     : 15
+변환 성공    : 15
 중복 제거    : 0
-최종 추가    : 16
-누적 상품    : 345
+최종 추가    : 15
+누적 상품    : 346
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -217,27 +217,28 @@ API 원본     : 15
 변환 성공    : 15
 중복 제거    : 0
 최종 추가    : 15
-누적 상품    : 360
+누적 상품    : 361
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : skincare
-API 원본     : 15
-변환 성공    : 15
+API 원본     : 13
+변환 성공    : 13
 중복 제거    : 1
-최종 추가    : 14
-누적 상품    : 374
+최종 추가    : 12
+누적 상품    : 373
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 저장 파일      : /home/runner/work/System/System/data/products.json
-최종 저장 상품 : 374
+최종 저장 상품 : 373
 ========================================
 
 [ko] 위험상품 필터
-허용 예외 통과 : 2
-위험상품 차단 : 15
+허용 예외 통과 : 3
+위험상품 차단 : 16
 차단 상품
+- 일본 사시미 칼 교체용 팔각형 나무 손잡이, 편안한 인체공학적 그립, 5.5인치 주방 도구 복원용 (키워드: 칼)
 - 2Pcs 배나무 칼 손잡이 세트 요리사 칼 수리용 인체공학적 나무 줄자 손잡이 DIY 손잡이 제작 교체용 주방 도구 (키워드: 칼)
 - XITUO DIY 맞춤형 교체 손잡이 수제 주방 칼 손잡이 원목&투명 레진 손잡이 재료 부품 (키워드: 칼)
 - 2Pcs 로즈우드 주방 칼 손잡이 인체공학적 커터 그립 칼 수리용 교체 부품 홈 슬라이싱 도구 (키워드: 칼)
@@ -255,10 +256,10 @@ API 원본     : 15
 - 1Pcs 개 고양이 발 세척 도구 샤워 헤드 남성용 전체 청소 마사지 스프레이 샤워 헤드 다기능 위생 샤워 노즐 (키워드: 남성용 전체 청소)
 큐레이션 페이지 배정
 hidden   : 90
-value    : 90
-popular  : 90
+value    : 89
+popular  : 89
 random   : 89
-전체 배정      : 359
+전체 배정      : 357
 미배정 상품    : 0
 ----------------------------------------
 
@@ -315,10 +316,10 @@ category     : living
 keyword      : home storage
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 98
-원인         : 정상 수집, 중복 1개 제외
+중복 제거    : 0
+최종 추가    : 20
+누적 상품    : 99
+원인         : 정상 수집
 ----------------------------------------
 생활용품
 category     : living
@@ -327,7 +328,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 118
+누적 상품    : 119
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -337,7 +338,7 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 0
 최종 추가    : 19
-누적 상품    : 137
+누적 상품    : 138
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -347,7 +348,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 157
+누적 상품    : 158
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -357,7 +358,7 @@ API 원본     : 18
 변환 성공    : 18
 중복 제거    : 0
 최종 추가    : 18
-누적 상품    : 175
+누적 상품    : 176
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -367,17 +368,17 @@ API 원본     : 18
 변환 성공    : 18
 중복 제거    : 3
 최종 추가    : 15
-누적 상품    : 190
+누적 상품    : 191
 원인         : 정상 수집, 중복 3개 제외
 ----------------------------------------
 패션잡화
 category     : fashion
 keyword      : fashion accessories
-API 원본     : 16
-변환 성공    : 16
+API 원본     : 18
+변환 성공    : 18
 중복 제거    : 0
-최종 추가    : 16
-누적 상품    : 206
+최종 추가    : 18
+누적 상품    : 209
 원인         : 정상 수집
 ----------------------------------------
 패션잡화
@@ -387,7 +388,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 12
 최종 추가    : 8
-누적 상품    : 214
+누적 상품    : 217
 원인         : 정상 수집, 중복 12개 제외
 ----------------------------------------
 패션잡화
@@ -395,10 +396,10 @@ category     : fashion
 keyword      : accessories
 API 원본     : 19
 변환 성공    : 19
-중복 제거    : 12
-최종 추가    : 7
-누적 상품    : 221
-원인         : 정상 수집, 중복 12개 제외
+중복 제거    : 14
+최종 추가    : 5
+누적 상품    : 222
+원인         : 정상 수집, 중복 14개 제외
 ----------------------------------------
 자동차용품
 category     : car
@@ -407,7 +408,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 241
+누적 상품    : 242
 원인         : 정상 수집
 ----------------------------------------
 자동차용품
@@ -417,7 +418,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 260
+누적 상품    : 261
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 자동차용품
@@ -425,10 +426,10 @@ category     : car
 keyword      : vehicle accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
+중복 제거    : 1
+최종 추가    : 19
 누적 상품    : 280
-원인         : 정상 수집
+원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 반려동물
 category     : pet
@@ -455,19 +456,19 @@ category     : pet
 keyword      : dog supplies
 API 원본     : 19
 변환 성공    : 19
-중복 제거    : 10
-최종 추가    : 9
-누적 상품    : 329
-원인         : 정상 수집, 중복 10개 제외
+중복 제거    : 9
+최종 추가    : 10
+누적 상품    : 330
+원인         : 정상 수집, 중복 9개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 12
-변환 성공    : 12
+API 원본     : 17
+변환 성공    : 17
 중복 제거    : 0
-최종 추가    : 12
-누적 상품    : 341
+최종 추가    : 17
+누적 상품    : 347
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -477,7 +478,7 @@ API 원본     : 15
 변환 성공    : 15
 중복 제거    : 1
 최종 추가    : 14
-누적 상품    : 355
+누적 상품    : 361
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 뷰티·건강
@@ -485,31 +486,33 @@ category     : beauty
 keyword      : skincare
 API 원본     : 17
 변환 성공    : 17
-중복 제거    : 3
-최종 추가    : 14
-누적 상품    : 369
-원인         : 정상 수집, 중복 3개 제외
+중복 제거    : 4
+최종 추가    : 13
+누적 상품    : 374
+원인         : 정상 수집, 중복 4개 제외
 ----------------------------------------
 저장 파일      : /home/runner/work/System/System/data/products_en.json
-최종 저장 상품 : 369
+최종 저장 상품 : 374
 ========================================
 
 [en] 위험상품 필터
-허용 예외 통과 : 3
-위험상품 차단 : 7
+허용 예외 통과 : 4
+위험상품 차단 : 9
 차단 상품
-- Gundam Color Matching PC Transparent Original Full Set Keycaps Compatible with Cross Shaft Mechanical Keyboards Anime Peripheral (키워드: gun)
 - Quick-Access Rifle & Pistol Safe – 8–10 Gun Capacity, Removable Adjustable Shelves, Backlit Digital Keypad, Dual Alert System, Sturdy Steel Construction, Ideal for Home Security Storage – Compact Yet Spacious Design, Easy Mounting Options, Smooth Opening (키워드: gun)
 - Tabletop Adjustable Drafting Table, Drawing Table for Adults, Drafting Desk Art Desk with Stool & 3 Storage Drawers, Modern Painting Studio Work Station for Home Office, 50.5 x 24 x 45 inch (키워드: adult)
-- Baofeng Long Range Walkie Talkies for Adults with Earpieces, 16 Channel Rechargeable Handheld Two Way Radio Walky Talky with Flashlight VOX for Adventure Family Camping Hiking Skiing Cruise (키워드: adult)
+- Dollhouse Mini Kitchen Set Cutting Board Fruit Knife Cleaver Model Steak Placemat Miniature Toy for 1:6/1:12 Dollhouse (키워드: knife)
+- Outdoor Folding Toilet Portable Car Toilet Travel Self-driving Tour Camping Toilet Emergency Toilets for Adults Women Children (키워드: adult)
 - 2-section Adjustable Telescopic Mountaineering Pole Outdoor Four-season Hiking Pole Ski Pole for Adults Children (키워드: adult)
 - 2026 New Cigarette case 20 pack Fashionable Sealed Waterproof Cigarette Box portable Pocket Storage Smoking Accessories Gift (키워드: cigar)
 - @1Pcs Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle Dog Cat Foot Wash Tool Shower Head (키워드: shower head for men)
+- 1Pcs Dog Cat Foot Wash Tool Shower Head Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle (키워드: shower head for men)
+- Capybara Shaped Pimple Patches, Facial Cover - Fragrance-Free, Paraben-Unisex Adult, All Skin Types Compatible, Skin Care Patch, (키워드: adult)
 큐레이션 페이지 배정
-hidden   : 91
+hidden   : 92
 value    : 91
-popular  : 90
-random   : 90
-전체 배정      : 362
+popular  : 91
+random   : 91
+전체 배정      : 365
 미배정 상품    : 0
 ----------------------------------------
