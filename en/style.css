@@ -252,6 +252,78 @@ main > h1 {
 }
 
 
+/* Toolbox Detail */
+.toolbox-detail {
+    grid-template-columns: minmax(320px, 44%) minmax(0, 1fr);
+    gap: clamp(28px, 4vw, 52px);
+}
+.toolbox-detail-media {
+    position: sticky;
+    top: 92px;
+    min-width: 0;
+}
+.toolbox-detail-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 72vh;
+    object-fit: contain;
+    background: #f7faf9;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 28px rgba(13, 76, 73, .10);
+}
+.toolbox-detail-placeholder {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    background:
+        linear-gradient(135deg, rgba(255,255,255,.55), rgba(255,255,255,0)),
+        #eef0f3;
+    border: 1px solid var(--line);
+}
+.toolbox-detail-content {
+    min-width: 0;
+}
+.toolbox-detail-content h1 {
+    margin-bottom: 8px;
+}
+.toolbox-detail-version {
+    margin: 0 0 22px;
+    color: var(--muted);
+    font-size: .95rem;
+    font-weight: 800;
+}
+.toolbox-detail-description {
+    margin-bottom: 28px;
+}
+.toolbox-detail-description p {
+    margin: 0 0 14px;
+    color: var(--ink);
+    line-height: 1.8;
+}
+.toolbox-detail-actions {
+    display: grid;
+    gap: 12px;
+    margin-top: 24px;
+}
+.toolbox-detail-actions .badamail-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
+    margin-top: 0;
+    padding: 10px 16px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+}
+.toolbox-detail-actions .badamail-link:hover {
+    background: var(--soft);
+}
+.toolbox-detail-back {
+    margin-top: 24px;
+}
+
+
 
 /* Badamail */
 .badamail-list {
@@ -387,6 +459,19 @@ main > h1 {
     font-size: .92rem;
     text-align: center;
 }
+
+@media (max-width: 860px) {
+    .toolbox-detail {
+        grid-template-columns: 1fr;
+    }
+    .toolbox-detail-media {
+        position: static;
+    }
+    .toolbox-detail-media img {
+        max-height: none;
+    }
+}
+
 @media (max-width: 760px) {
     .home-route-grid{grid-template-columns:1fr;}
     .treasure-route { grid-template-columns: 1fr; }
