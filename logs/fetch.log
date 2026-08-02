@@ -1,5 +1,5 @@
 Blackship AliExpress fetch log
-created_at: 2026-08-03 04:02:02
+created_at: 2026-08-03 06:57:11
 ========================================
 
 [ko] AliExpress API 수집
@@ -195,10 +195,10 @@ category     : pet
 keyword      : dog supplies
 API 원본     : 18
 변환 성공    : 18
-중복 제거    : 8
-최종 추가    : 10
-누적 상품    : 334
-원인         : 정상 수집, 중복 8개 제외
+중복 제거    : 6
+최종 추가    : 12
+누적 상품    : 336
+원인         : 정상 수집, 중복 6개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
@@ -207,7 +207,7 @@ API 원본     : 15
 변환 성공    : 15
 중복 제거    : 0
 최종 추가    : 15
-누적 상품    : 349
+누적 상품    : 351
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -217,7 +217,7 @@ API 원본     : 17
 변환 성공    : 17
 중복 제거    : 0
 최종 추가    : 17
-누적 상품    : 366
+누적 상품    : 368
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -227,19 +227,19 @@ API 원본     : 11
 변환 성공    : 11
 중복 제거    : 1
 최종 추가    : 10
-누적 상품    : 376
+누적 상품    : 378
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
-저장 파일      : /home/runner/work/System/System/data/products.json
-최종 저장 상품 : 376
+저장 파일      : C:\A1Fate\Coding\Python\Blackship\data\products.json
+최종 저장 상품 : 378
 ========================================
 
 [ko] 위험상품 필터
-허용 예외 통과 : 3
+허용 예외 통과 : 2
 위험상품 차단 : 16
 차단 상품
-- 컴퓨터 책상용 인체공학적 게임 의자 어린이 및 성인용 사무실 학습용 좌석 장시간 앉아도 편안한 가정용 업무용 의자 (키워드: 성인)
 - 2Pcs 배나무 칼 손잡이 세트 요리사 칼 수리용 인체공학적 나무 줄자 손잡이 DIY 손잡이 제작 교체용 주방 도구 (키워드: 칼)
+- 주방용품 천연 나무결 식품 준비용 체커보드 도마 주방용품 두꺼운 나무 도마 칼날에 좋은 도마 (키워드: 칼)
 - 2개 세트 배나무 주방칼 손잡이 세트, 인체공학적 경재 교체용 손잡이, 칼 제작 수리용 요리 도구 손잡이 (키워드: 칼)
 - XITUO DIY 맞춤형 교체 손잡이 수제 주방 칼 손잡이 원목&투명 레진 손잡이 재료 부품 (키워드: 칼)
 - 2Pcs 로즈우드 주방 칼 손잡이 인체공학적 커터 그립 칼 수리용 교체 부품 홈 슬라이싱 도구 (키워드: 칼)
@@ -255,11 +255,11 @@ API 원본     : 11
 - @1Pcs 남성용 전체 청소 마사지 스프레이 샤워 헤드 다기능 위생 샤워 노즐 개 고양이 발 세척 도구 샤워 헤드 (키워드: 남성용 전체 청소)
 - 1Pcs 개 고양이 발 세척 도구 샤워 헤드 남성용 전체 청소 마사지 스프레이 샤워 헤드 다기능 위생 샤워 노즐 (키워드: 남성용 전체 청소)
 큐레이션 페이지 배정
-hidden   : 90
-value    : 90
+hidden   : 91
+value    : 91
 popular  : 90
 random   : 90
-전체 배정      : 360
+전체 배정      : 362
 미배정 상품    : 0
 ----------------------------------------
 
@@ -386,10 +386,10 @@ category     : fashion
 keyword      : fashion
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 14
-최종 추가    : 6
-누적 상품    : 216
-원인         : 정상 수집, 중복 14개 제외
+중복 제거    : 13
+최종 추가    : 7
+누적 상품    : 217
+원인         : 정상 수집, 중복 13개 제외
 ----------------------------------------
 패션잡화
 category     : fashion
@@ -398,7 +398,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 17
 최종 추가    : 3
-누적 상품    : 219
+누적 상품    : 220
 원인         : 정상 수집, 중복 17개 제외
 ----------------------------------------
 자동차용품
@@ -408,7 +408,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 239
+누적 상품    : 240
 원인         : 정상 수집
 ----------------------------------------
 자동차용품
@@ -418,7 +418,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 259
+누적 상품    : 260
 원인         : 정상 수집
 ----------------------------------------
 자동차용품
@@ -428,7 +428,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 278
+누적 상품    : 279
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 반려동물
@@ -438,7 +438,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 298
+누적 상품    : 299
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -448,7 +448,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 318
+누적 상품    : 319
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -456,10 +456,10 @@ category     : pet
 keyword      : dog supplies
 API 원본     : 18
 변환 성공    : 18
-중복 제거    : 5
-최종 추가    : 13
-누적 상품    : 331
-원인         : 정상 수집, 중복 5개 제외
+중복 제거    : 4
+최종 추가    : 14
+누적 상품    : 333
+원인         : 정상 수집, 중복 4개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
@@ -468,7 +468,7 @@ API 원본     : 17
 변환 성공    : 17
 중복 제거    : 0
 최종 추가    : 17
-누적 상품    : 348
+누적 상품    : 350
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -478,7 +478,7 @@ API 원본     : 16
 변환 성공    : 16
 중복 제거    : 1
 최종 추가    : 15
-누적 상품    : 363
+누적 상품    : 365
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 뷰티·건강
@@ -488,23 +488,21 @@ API 원본     : 17
 변환 성공    : 17
 중복 제거    : 4
 최종 추가    : 13
-누적 상품    : 376
+누적 상품    : 378
 원인         : 정상 수집, 중복 4개 제외
 ----------------------------------------
-저장 파일      : /home/runner/work/System/System/data/products_en.json
-최종 저장 상품 : 376
+저장 파일      : C:\A1Fate\Coding\Python\Blackship\data\products_en.json
+최종 저장 상품 : 378
 ========================================
 
 [en] 위험상품 필터
 허용 예외 통과 : 4
-위험상품 차단 : 13
+위험상품 차단 : 11
 차단 상품
 - Big & Tall Vintage Gaming Chair or Adults, 400 lb acity Heavy Duty Ergonomic Computer Chair with Massage Lumbar, ootrest & Easy (키워드: adult)
 - Big & Tall Vintage Gaming Chair for Adults, 400 lb Capacity Heavy Duty Ergonomic Computer Chair with Massage Lumbar (키워드: adult)
 - Tabletop Adjustable Drafting Table, Drawing Table for Adults, Drafting Desk Art Desk with Stool & 3 Storage Drawers, Modern Painting Studio Work Station for Home Office, 50.5 x 24 x 45 inch (키워드: adult)
-- 2Pcs Pear Wood Knife Handle Set Ergonomic Wooden File Handles for Chef Knife Repair DIY Handle Making Replacement Kitchen Tool (키워드: knife)
 - Dollhouse Mini Kitchen Set Cutting Board Fruit Knife Cleaver Model Steak Placemat Miniature Toy for 1:6/1:12 Dollhouse (키워드: knife)
-- Solid Beech Wood Knife Handle Replacement for Kitchen Knives Wooden Grip Anti-Slip Comfortable Long-Lasting DIY Repair Tool (키워드: knife)
 - Folding Camping Toilet High Quality Adult Movable Outdoor Toilet FoldiHot Selling Camping Tng Portable Travel Car Toilet Plastic (키워드: adult)
 - Outdoor Folding Toilet Portable Car Toilet Travel Self-driving Tour Camping Toilet Emergency Toilets for Adults Women Children (키워드: adult)
 - Baofeng Long Range Walkie Talkies for Adults with Earpieces, 16 Channel Rechargeable Handheld Two Way Radio Walky Talky with Flashlight VOX for Adventure Family Camping Hiking Skiing Cruise (키워드: adult)
@@ -513,10 +511,10 @@ API 원본     : 17
 - @1Pcs Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle Dog Cat Foot Wash Tool Shower Head (키워드: shower head for men)
 - 1Pcs Dog Cat Foot Wash Tool Shower Head Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle (키워드: shower head for men)
 큐레이션 페이지 배정
-hidden   : 91
-value    : 91
-popular  : 91
-random   : 90
-전체 배정      : 363
+hidden   : 92
+value    : 92
+popular  : 92
+random   : 91
+전체 배정      : 367
 미배정 상품    : 0
 ----------------------------------------
