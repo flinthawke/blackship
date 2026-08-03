@@ -16,7 +16,6 @@ https://blackship.kr/badamail-20260802-182123.html
 https://blackship.kr/toolbox/finder.html
 https://blackship.kr/toolbox/iconmaker.html
 https://blackship.kr/toolbox/inserter.html
-https://blackship.kr/toolbox/network.html
 https://blackship.kr/1.html
 https://blackship.kr/2.html
 https://blackship.kr/3.html
@@ -390,10 +389,6 @@ https://blackship.kr/370.html
 https://blackship.kr/371.html
 https://blackship.kr/372.html
 https://blackship.kr/373.html
-https://blackship.kr/374.html
-https://blackship.kr/375.html
-https://blackship.kr/376.html
-https://blackship.kr/377.html
 https://blackship.kr/en/index.html
 https://blackship.kr/en/random.html
 https://blackship.kr/en/hidden.html
@@ -412,7 +407,6 @@ https://blackship.kr/en/badamail-20260802-182123.html
 https://blackship.kr/en/toolbox/finder.html
 https://blackship.kr/en/toolbox/iconmaker.html
 https://blackship.kr/en/toolbox/inserter.html
-https://blackship.kr/en/toolbox/network.html
 https://blackship.kr/en/1.html
 https://blackship.kr/en/2.html
 https://blackship.kr/en/3.html
@@ -792,3 +786,4 @@ https://blackship.kr/en/376.html
 https://blackship.kr/en/377.html
 https://blackship.kr/en/378.html
 https://blackship.kr/en/379.html
+https://blackship.kr/en/380.html
