@@ -1,5 +1,5 @@
 Blackship AliExpress fetch log
-created_at: 2026-08-09 03:29:48
+created_at: 2026-08-10 03:32:13
 ========================================
 
 [ko] AliExpress API 수집
@@ -135,10 +135,10 @@ category     : fashion
 keyword      : accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 14
-최종 추가    : 6
-누적 상품    : 229
-원인         : 정상 수집, 중복 14개 제외
+중복 제거    : 12
+최종 추가    : 8
+누적 상품    : 231
+원인         : 정상 수집, 중복 12개 제외
 ----------------------------------------
 자동차용품
 category     : car
@@ -147,7 +147,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 248
+누적 상품    : 250
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 자동차용품
@@ -157,7 +157,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 267
+누적 상품    : 269
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 자동차용품
@@ -165,10 +165,10 @@ category     : car
 keyword      : vehicle accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 286
-원인         : 정상 수집, 중복 1개 제외
+중복 제거    : 0
+최종 추가    : 20
+누적 상품    : 289
+원인         : 정상 수집
 ----------------------------------------
 반려동물
 category     : pet
@@ -177,7 +177,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 306
+누적 상품    : 309
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -187,7 +187,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 325
+누적 상품    : 328
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 반려동물
@@ -195,19 +195,19 @@ category     : pet
 keyword      : dog supplies
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 7
-최종 추가    : 13
-누적 상품    : 338
-원인         : 정상 수집, 중복 7개 제외
+중복 제거    : 5
+최종 추가    : 15
+누적 상품    : 343
+원인         : 정상 수집, 중복 5개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 15
-변환 성공    : 15
+API 원본     : 14
+변환 성공    : 14
 중복 제거    : 0
-최종 추가    : 15
-누적 상품    : 353
+최종 추가    : 14
+누적 상품    : 357
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -217,21 +217,21 @@ API 원본     : 16
 변환 성공    : 16
 중복 제거    : 0
 최종 추가    : 16
-누적 상품    : 369
+누적 상품    : 373
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : skincare
-API 원본     : 11
-변환 성공    : 11
+API 원본     : 10
+변환 성공    : 10
 중복 제거    : 1
-최종 추가    : 10
-누적 상품    : 379
+최종 추가    : 9
+누적 상품    : 382
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 저장 파일      : /home/runner/work/System/System/data/products.json
-최종 저장 상품 : 379
+최종 저장 상품 : 382
 ========================================
 
 [ko] 위험상품 필터
@@ -250,11 +250,11 @@ API 원본     : 11
 - 1Pcs 개 고양이 발 세척 도구 샤워 헤드 남성용 전체 청소 마사지 스프레이 샤워 헤드 다기능 위생 샤워 노즐 (키워드: 남성용 전체 청소)
 - 나무 눈썹 연필 샤프너, 끊어지지 않는 칼날형 팁, 간편한 수동 샤프너, 모든 나무 눈썹 연필과 호환 (키워드: 칼)
 큐레이션 페이지 배정
-hidden   : 92
-value    : 92
-popular  : 92
+hidden   : 93
+value    : 93
+popular  : 93
 random   : 92
-전체 배정      : 368
+전체 배정      : 371
 미배정 상품    : 0
 ----------------------------------------
 
@@ -269,11 +269,11 @@ limit           : 420
 전자기기
 category     : electronics
 keyword      : keyboard
-API 원본     : 18
-변환 성공    : 18
+API 원본     : 17
+변환 성공    : 17
 중복 제거    : 0
-최종 추가    : 18
-누적 상품    : 18
+최종 추가    : 17
+누적 상품    : 17
 원인         : 정상 수집
 ----------------------------------------
 전자기기
@@ -283,7 +283,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 38
+누적 상품    : 37
 원인         : 정상 수집
 ----------------------------------------
 전자기기
@@ -293,7 +293,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 58
+누적 상품    : 57
 원인         : 정상 수집
 ----------------------------------------
 생활용품
@@ -303,7 +303,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 78
+누적 상품    : 77
 원인         : 정상 수집
 ----------------------------------------
 생활용품
@@ -313,7 +313,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 97
+누적 상품    : 96
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 생활용품
@@ -323,7 +323,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 116
+누적 상품    : 115
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 취미·야외
@@ -333,7 +333,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 136
+누적 상품    : 135
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -343,7 +343,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 156
+누적 상품    : 155
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -353,7 +353,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 176
+누적 상품    : 175
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -363,7 +363,7 @@ API 원본     : 18
 변환 성공    : 18
 중복 제거    : 2
 최종 추가    : 16
-누적 상품    : 192
+누적 상품    : 191
 원인         : 정상 수집, 중복 2개 제외
 ----------------------------------------
 패션잡화
@@ -373,7 +373,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 212
+누적 상품    : 211
 원인         : 정상 수집
 ----------------------------------------
 패션잡화
@@ -383,7 +383,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 12
 최종 추가    : 8
-누적 상품    : 220
+누적 상품    : 219
 원인         : 정상 수집, 중복 12개 제외
 ----------------------------------------
 패션잡화
@@ -393,7 +393,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 12
 최종 추가    : 8
-누적 상품    : 228
+누적 상품    : 227
 원인         : 정상 수집, 중복 12개 제외
 ----------------------------------------
 자동차용품
@@ -403,7 +403,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 247
+누적 상품    : 246
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 자동차용품
@@ -413,7 +413,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 267
+누적 상품    : 266
 원인         : 정상 수집
 ----------------------------------------
 자동차용품
@@ -421,19 +421,19 @@ category     : car
 keyword      : vehicle accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
+중복 제거    : 0
+최종 추가    : 20
 누적 상품    : 286
-원인         : 정상 수집, 중복 1개 제외
+원인         : 정상 수집
 ----------------------------------------
 반려동물
 category     : pet
 keyword      : pet supplies
-API 원본     : 20
-변환 성공    : 20
+API 원본     : 19
+변환 성공    : 19
 중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 306
+최종 추가    : 19
+누적 상품    : 305
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -443,7 +443,7 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 0
 최종 추가    : 19
-누적 상품    : 325
+누적 상품    : 324
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -451,19 +451,19 @@ category     : pet
 keyword      : dog supplies
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 5
-최종 추가    : 15
+중복 제거    : 4
+최종 추가    : 16
 누적 상품    : 340
-원인         : 정상 수집, 중복 5개 제외
+원인         : 정상 수집, 중복 4개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 16
-변환 성공    : 16
+API 원본     : 17
+변환 성공    : 17
 중복 제거    : 0
-최종 추가    : 16
-누적 상품    : 356
+최종 추가    : 17
+누적 상품    : 357
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -473,42 +473,41 @@ API 원본     : 17
 변환 성공    : 17
 중복 제거    : 1
 최종 추가    : 16
-누적 상품    : 372
+누적 상품    : 373
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : skincare
-API 원본     : 15
-변환 성공    : 15
+API 원본     : 16
+변환 성공    : 16
 중복 제거    : 3
-최종 추가    : 12
-누적 상품    : 384
+최종 추가    : 13
+누적 상품    : 386
 원인         : 정상 수집, 중복 3개 제외
 ----------------------------------------
 저장 파일      : /home/runner/work/System/System/data/products_en.json
-최종 저장 상품 : 384
+최종 저장 상품 : 386
 ========================================
 
 [en] 위험상품 필터
 허용 예외 통과 : 2
-위험상품 차단 : 10
+위험상품 차단 : 9
 차단 상품
 - Big & Tall Vintage Gaming Chair for Adults, 400 lb Capacity Heavy Duty Ergonomic Computer Chair with Massage Lumbar (키워드: adult)
-- Dollhouse Mini Kitchen Set Cutting Board Fruit Knife Cleaver Model Steak Placemat Miniature Toy for 1:6/1:12 Dollhouse (키워드: knife)
+- Octagonal Knife Handle For DIY Knife Handle Semi-finished Handmade Damascus Steel Knife Material Kitchen (키워드: knife)
 - Folding Camping Toilet High Quality Adult Movable Outdoor Toilet FoldiHot Selling Camping Tng Portable Travel Car Toilet Plastic (키워드: adult)
 - Portable Camping Toilet, Adult Portable Toilet, Adult Portable Ceramic, Foldable Waterproof Portable Ceramic For Camping, Train, Bucket, Traveling (키워드: adult)
 - Outdoor Folding Toilet Portable Car Toilet Travel Self-driving Tour Camping Toilet Emergency Toilets for Adults Women Children (키워드: adult)
-- Baofeng Long Range Walkie Talkies for Adults with Earpieces, 16 Channel Rechargeable Handheld Two Way Radio Walky Talky with Flashlight VOX for Adventure Family Camping Hiking Skiing Cruise (키워드: adult)
 - 2-section Adjustable Telescopic Mountaineering Pole Outdoor Four-season Hiking Pole Ski Pole for Adults Children (키워드: adult)
 - Customizable Adult Dog Training Protectors Sustainable Anti-Bite Sleeves with Bite Suit for Outdoor Use Pet Training Supplies (키워드: adult)
 - @1Pcs Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle Dog Cat Foot Wash Tool Shower Head (키워드: shower head for men)
 - 1Pcs Dog Cat Foot Wash Tool Shower Head Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle (키워드: shower head for men)
 큐레이션 페이지 배정
-hidden   : 94
+hidden   : 95
 value    : 94
-popular  : 93
-random   : 93
-전체 배정      : 374
+popular  : 94
+random   : 94
+전체 배정      : 377
 미배정 상품    : 0
 ----------------------------------------
