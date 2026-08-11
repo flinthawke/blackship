@@ -371,6 +371,33 @@ main > h1 {
 
 
 
+/* Badamail visitor counter */
+.badamail-title-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0 0 22px;
+}
+.badamail-title-line h1 {
+    margin: 0;
+}
+.visitor-counter {
+    display: block;
+    width: auto;
+    height: 20px;
+    flex: 0 0 auto;
+}
+.visitor-counter-tracker {
+    position: fixed;
+    left: -9999px;
+    top: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* Badamail */
 .badamail-list {
     display: grid;
