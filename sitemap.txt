@@ -396,6 +396,8 @@ https://blackship.kr/374.html
 https://blackship.kr/375.html
 https://blackship.kr/376.html
 https://blackship.kr/377.html
+https://blackship.kr/378.html
+https://blackship.kr/379.html
 https://blackship.kr/en/index.html
 https://blackship.kr/en/random.html
 https://blackship.kr/en/hidden.html
@@ -793,3 +795,9 @@ https://blackship.kr/en/373.html
 https://blackship.kr/en/374.html
 https://blackship.kr/en/375.html
 https://blackship.kr/en/376.html
+https://blackship.kr/en/377.html
+https://blackship.kr/en/378.html
+https://blackship.kr/en/379.html
+https://blackship.kr/en/380.html
+https://blackship.kr/en/381.html
+https://blackship.kr/en/382.html
