@@ -5,7 +5,6 @@ https://blackship.kr/en/value.html
 https://blackship.kr/en/popular.html
 https://blackship.kr/en/badamail.html
 https://blackship.kr/en/toolbox.html
-https://blackship.kr/en/toolbox/networker.html
 https://blackship.kr/en/toolbox/renamer.html
 https://blackship.kr/en/toolbox/replacer.html
 https://blackship.kr/en/1.html
