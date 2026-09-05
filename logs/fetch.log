@@ -1,5 +1,5 @@
 Blackship AliExpress fetch log
-created_at: 2026-09-05 11:03:02
+created_at: 2026-09-06 04:49:35
 ========================================
 
 [ko] AliExpress API 수집
@@ -93,11 +93,11 @@ API 원본     : 19
 취미·야외
 category     : hobby
 keyword      : outdoor
-API 원본     : 20
-변환 성공    : 20
+API 원본     : 19
+변환 성공    : 19
 중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 177
+최종 추가    : 19
+누적 상품    : 176
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -105,10 +105,10 @@ category     : hobby
 keyword      : hiking
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 197
-원인         : 정상 수집
+중복 제거    : 1
+최종 추가    : 19
+누적 상품    : 195
+원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 패션잡화
 category     : fashion
@@ -117,7 +117,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 217
+누적 상품    : 215
 원인         : 정상 수집
 ----------------------------------------
 패션잡화
@@ -127,7 +127,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 12
 최종 추가    : 8
-누적 상품    : 225
+누적 상품    : 223
 원인         : 정상 수집, 중복 12개 제외
 ----------------------------------------
 패션잡화
@@ -137,7 +137,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 7
 최종 추가    : 13
-누적 상품    : 238
+누적 상품    : 236
 원인         : 정상 수집, 중복 7개 제외
 ----------------------------------------
 자동차용품
@@ -147,7 +147,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 257
+누적 상품    : 255
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 자동차용품
@@ -157,7 +157,7 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 0
 최종 추가    : 19
-누적 상품    : 276
+누적 상품    : 274
 원인         : 정상 수집
 ----------------------------------------
 자동차용품
@@ -165,10 +165,10 @@ category     : car
 keyword      : vehicle accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 3
-최종 추가    : 17
-누적 상품    : 293
-원인         : 정상 수집, 중복 3개 제외
+중복 제거    : 2
+최종 추가    : 18
+누적 상품    : 292
+원인         : 정상 수집, 중복 2개 제외
 ----------------------------------------
 반려동물
 category     : pet
@@ -177,7 +177,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 313
+누적 상품    : 312
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -185,10 +185,10 @@ category     : pet
 keyword      : pet
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 2
-최종 추가    : 18
+중복 제거    : 1
+최종 추가    : 19
 누적 상품    : 331
-원인         : 정상 수집, 중복 2개 제외
+원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 반려동물
 category     : pet
@@ -203,11 +203,11 @@ API 원본     : 19
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 17
-변환 성공    : 17
+API 원본     : 14
+변환 성공    : 14
 중복 제거    : 0
-최종 추가    : 17
-누적 상품    : 362
+최종 추가    : 14
+누적 상품    : 359
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -217,57 +217,56 @@ API 원본     : 16
 변환 성공    : 16
 중복 제거    : 0
 최종 추가    : 16
-누적 상품    : 378
+누적 상품    : 375
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : skincare
-API 원본     : 14
-변환 성공    : 14
+API 원본     : 10
+변환 성공    : 10
 중복 제거    : 0
-최종 추가    : 14
-누적 상품    : 392
+최종 추가    : 10
+누적 상품    : 385
 원인         : 정상 수집
 ----------------------------------------
-저장 파일      : C:\A1Fate\Coding\Python\Blackship\data\products.json
-최종 저장 상품 : 392
+저장 파일      : /home/runner/work/System/System/data/products.json
+최종 저장 상품 : 385
 ========================================
 
 [ko] 위험상품 / 검색오염 필터
-입력 상품       : 392
-허용 예외 통과  : 13
-위험상품 차단   : 13
-검색오염 제거   : 23
-큐레이션 후보   : 356
+입력 상품       : 385
+허용 예외 통과  : 12
+위험상품 차단   : 9
+검색오염 제거   : 25
+큐레이션 후보   : 351
 차단 상품
 - 게임 의자 저렴한 커버 인체공학적 의자 컴퓨터 성인용 쿠션 인체공학적 게임용 스툴 사무용 가구 (키워드: 성인)
 - 칼날 홀더가 있는 도마 랙, 스테인리스 스틸 주방 칼날 스탠드, 도마 슬롯이 있는 조리대 정리대, 공간 절약형 (키워드: 칼)
 - 그랜드샤프 자석식 나무 사야 칼집 보호대, 사시미 칼날 보관용 칼집 홀더, 주방 액세서리 (키워드: 칼)
 - 5단 아크릴 담배 진열대, 매장 카운터탑 양념/향신료 랙, 주방 캐비닛용 투명 정리대 (키워드: 담배)
 - 칼날 홀더가 있는 도마 랙, 미끄럼 방지 주방 칼날 스탠드, 도마 슬롯이 있는 조리대 정리대, 컴팩트하고 다기능적인 제품 (키워드: 칼)
-- 주방용품 천연 나무결 식품 준비용 체커보드 도마 주방용품 두꺼운 나무 도마 칼날에 좋은 도마 (키워드: 칼)
-- 2Pcs 로즈우드 주방 칼 손잡이 인체공학적 커터 그립 칼 수리용 교체 부품 홈 슬라이싱 도구 (키워드: 칼)
-- 2개입 나무 손잡이 주방칼 교체용 인체공학적 미끄럼 방지 커터 그립 수리 도구 (칼 손잡이 재료용) (키워드: 칼)
+- 일본식 주방 칼 손잡이 팔각형 손잡이 교체 공예품 블랙 G10 소재 사시미 칼 셰프 나이프 손잡이 (키워드: 칼)
 - 접이식 캠핑 화장실 고품질 성인용 이동식 야외 화장실 접이식 인기 판매 캠핑용 휴대용 여행용 차량용 화장실 플라스틱 (키워드: 성인)
 - 공장 도매 20L RV 카라반 휴대용 변기 플라스틱 야외 캠핑 성인용 변기 이동식 변기 (키워드: 성인)
-- 갈색 수공예 양각 가죽 고정형 나이프 칼집, 내구성 있는 소가죽 나이프 칼집, 벨트 휴대용 나이프, 나이프 수집가용, 아웃도어 도구 (키워드: 칼)
-- 1개 정품 소가죽 고정날 칼집 야외용 직선 칼 소가죽 칼집 커버 보관 가방 벨트가 있는 바지용 (키워드: 칼)
 - @1Pcs 남성용 전체 청소 마사지 스프레이 샤워 헤드 다기능 위생 샤워 노즐 개 고양이 발 세척 도구 샤워 헤드 (키워드: 남성용 전체 청소)
 검색오염 제거 상품
 - 360 °   회전식 3-in-1 흡착식 자석 휴대폰 홀더 다각도 조절 가능 접이식 자석 휴대폰 스탠드 데스크탑 브래킷 신제품 (living, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 히브리어 글자 금속 조각품 벽걸이 장식판 방청 처리된 실내외 거실 사무실 장식품 (hobby, 카테고리 관련 단서 없음)
+- 카피바라 휴대용 도시락 샌드위치 실리콘 토스트 모양 벤토 도시락 뚜껑 포함 사무실 학교 야외 점심 도시락 용기 선물 (living, 카테고리 관련 단서 없음)
+- 미피 뉴 스타일 귀여운 엠보싱 머신 펀처 토끼 엠보싱 도구 DIY 수공예 액세서리 창의적인 프린팅 머신 선물 (living, 카테고리 관련 단서 없음)
+- CIFBUY 금속 벽 장식 추상적인 디자인 철제 공예 조각품 실내외용 가정 사무실 교회 장식판 (hobby, 카테고리 관련 단서 없음)
 - CIFBUY 이슬람 아랍어 캘리그라피 금속 벽 장식 미니멀리스트 홈 데코 - 거실, 사무실, 실내외, 문화적 인테리어용 (hobby, 카테고리 관련 단서 없음)
+- CIFBUY 금속 벽 장식 히브리어 레터링 사인 철제 공예 조각품 실내외 빈티지 러스틱 팜하우스 장식판 (hobby, 카테고리 관련 단서 없음)
 - CIFBUY 철제 벽 장식 빈티지 금속 조각 유대교 장식 방청 처리된 벽걸이 장식판 가정용 실내외 전시용 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 금속 벽 장식 다윗의 별 장식 철제 공예 조각품 실내외 레트로 영적 장식판 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 히브리어 축복 문구 금속 조각품 벽걸이 장식 방청 처리된 실내외 장식품 (hobby, 카테고리 관련 단서 없음)
+- CIFBUY 철제 벽 장식 히브리어 글자 금속 조각 방청 처리된 걸이형 장식판 가정 및 사무실 실내외 장식용 (hobby, 카테고리 관련 단서 없음)
+- CIFBUY 철제 벽 장식 빈티지 히브리어 캘리그라피 금속 조각 방청 처리된 벽걸이 장식판 실내외 종교 장식 (hobby, 카테고리 관련 단서 없음)
 - CIFBUY 이슬람풍 판자탄팍 캘리그라피 금속 벽 장식 미니멀리스트 홈 데코 실내외 파티오 발코니 영적 인테리어용 (hobby, 카테고리 관련 단서 없음)
 - CIFBUY 메탈 벽 장식 빈티지 히브리어 캘리그라피 표지판 철제 공예 조각품 실내외용 거실 침실 서재 장식판 (hobby, 카테고리 관련 단서 없음)
 - CIFBUY 유대인의 별 금속 벽 장식 철 조각품 거실 침실 실내외 홈 데코 선물 녹 방지 (hobby, 카테고리 관련 단서 없음)
-- 2026 섹시 레이스 3피스 비키니 세트 메쉬 스커트 숏 수영복 신상품 트렌디 비치웨어 (fashion, 카테고리 관련 단서 없음)
+- CIFBUY 철제 벽 장식 빈티지 히브리어 캘리그라피 금속 조각 방청 처리된 걸이형 장식판 실내외 종교 장식 표지판 (hobby, 카테고리 관련 단서 없음)
+- CIFBUY 금속 벽 장식 히브리어 사랑 문구 철제 공예 조각품 실내외 가정 침실 커플 장식판 (hobby, 카테고리 관련 단서 없음)
 - 유대교 축제 석류 냅킨 링 실리콘 몰드 레진 에폭시 테이블 장식 주조 몰드 (fashion, 카테고리 관련 단서 없음)
 - 칭준 12DI 12DO 트랜지스터 출력 PLC 2AI 2AO 0-20mA 0-10V RS485 Modbus RTU 프로그래밍 가능 로직 컨트롤러 (세차용) (car, 카테고리 관련 단서 없음)
-- 범용 전기 자전거 안전 헬멧 보관 가방 E-MA Yadi 전기 자전거용 걸이형 파우치 내구성 있는 액세서리 (car, 카테고리 관련 단서 없음)
 - 2피스 간호사 유니폼 탄력있는 의사 간호사 동물병원 유니폼 세트 반팔 상의 스트레이트 팬츠 무광 세트 (pet, 카테고리 관련 단서 없음)
 - 귀여운 빈티지 북 도그 리치 패턴 폰 케이스 삼성 갤럭시 A56 A55 A53 A54 A36 A15 A16 5G S23 S23 S24 울트라 S25 FE 커버 (pet, 카테고리 관련 단서 없음)
 - HOT 게임즈 워치독스 2 데드섹 폰 케이스 삼성 S26 S25 S24 S23 S22 S21 S20 울트라 노트20용 소프트 블랙 충격 방지 커버 (pet, 카테고리 관련 단서 없음)
@@ -276,14 +275,13 @@ API 원본     : 14
 - 파자마 세트 마이멜로디 2026 여름 신상 여성 반팔 반바지 예쁜 소녀들이 입을 수 있는 아우터웨어 홈웨어 세트 귀엽고 달콤한 (beauty, 카테고리 관련 단서 없음)
 - 여성 스포츠 피트니스 요가복 세트 통기성 좋은 탄력 반바지 피치 바텀 스마일 디자인 아름다운 등 라인 브라 요가 팬츠 (beauty, 카테고리 관련 단서 없음)
 - 재미있는 할머니 속옷 아름다운 나비 장난 선물 할머니 팬티 (beauty, 카테고리 관련 단서 없음)
-- 여성용 컨트롤 팬티, 패드 내장 힙업 효과, 복부 보정, 나일론 소재, BBL 기술, 아름다운 삼각형 디자인 (beauty, 카테고리 관련 단서 없음)
 - 여성용 편안한 잠옷 여성용 아름다운 수탉 나뭇가지와 꽃 배경 반팔 세트 잠옷 (beauty, 카테고리 관련 단서 없음)
 큐레이션 페이지 배정
-hidden   : 89
-value    : 89
-popular  : 89
-random   : 89
-전체 배정      : 356
+hidden   : 88
+value    : 88
+popular  : 88
+random   : 87
+전체 배정      : 351
 미배정 상품    : 0
 ----------------------------------------
 
@@ -298,11 +296,11 @@ limit           : 420
 전자기기
 category     : electronics
 keyword      : keyboard
-API 원본     : 17
-변환 성공    : 17
+API 원본     : 16
+변환 성공    : 16
 중복 제거    : 0
-최종 추가    : 17
-누적 상품    : 17
+최종 추가    : 16
+누적 상품    : 16
 원인         : 정상 수집
 ----------------------------------------
 전자기기
@@ -310,10 +308,10 @@ category     : electronics
 keyword      : mechanical keyboard
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
+중복 제거    : 0
+최종 추가    : 20
 누적 상품    : 36
-원인         : 정상 수집, 중복 1개 제외
+원인         : 정상 수집
 ----------------------------------------
 전자기기
 category     : electronics
@@ -328,21 +326,21 @@ API 원본     : 20
 생활용품
 category     : living
 keyword      : kitchen organizer
-API 원본     : 19
-변환 성공    : 19
+API 원본     : 20
+변환 성공    : 20
 중복 제거    : 0
-최종 추가    : 19
-누적 상품    : 75
+최종 추가    : 20
+누적 상품    : 76
 원인         : 정상 수집
 ----------------------------------------
 생활용품
 category     : living
 keyword      : home storage
-API 원본     : 18
-변환 성공    : 18
+API 원본     : 19
+변환 성공    : 19
 중복 제거    : 0
-최종 추가    : 18
-누적 상품    : 93
+최종 추가    : 19
+누적 상품    : 95
 원인         : 정상 수집
 ----------------------------------------
 생활용품
@@ -352,7 +350,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 112
+누적 상품    : 114
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 취미·야외
@@ -360,10 +358,10 @@ category     : hobby
 keyword      : camping gear
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 131
-원인         : 정상 수집, 중복 1개 제외
+중복 제거    : 0
+최종 추가    : 20
+누적 상품    : 134
+원인         : 정상 수집
 ----------------------------------------
 취미·야외
 category     : hobby
@@ -372,7 +370,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 151
+누적 상품    : 154
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
@@ -382,18 +380,18 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 0
 최종 추가    : 19
-누적 상품    : 170
+누적 상품    : 173
 원인         : 정상 수집
 ----------------------------------------
 취미·야외
 category     : hobby
 keyword      : hiking
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 2
+API 원본     : 19
+변환 성공    : 19
+중복 제거    : 1
 최종 추가    : 18
-누적 상품    : 188
-원인         : 정상 수집, 중복 2개 제외
+누적 상품    : 191
+원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 패션잡화
 category     : fashion
@@ -402,7 +400,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 208
+누적 상품    : 211
 원인         : 정상 수집
 ----------------------------------------
 패션잡화
@@ -410,10 +408,10 @@ category     : fashion
 keyword      : fashion
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 13
-최종 추가    : 7
-누적 상품    : 215
-원인         : 정상 수집, 중복 13개 제외
+중복 제거    : 12
+최종 추가    : 8
+누적 상품    : 219
+원인         : 정상 수집, 중복 12개 제외
 ----------------------------------------
 패션잡화
 category     : fashion
@@ -422,7 +420,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 11
 최종 추가    : 9
-누적 상품    : 224
+누적 상품    : 228
 원인         : 정상 수집, 중복 11개 제외
 ----------------------------------------
 자동차용품
@@ -432,7 +430,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 1
 최종 추가    : 19
-누적 상품    : 243
+누적 상품    : 247
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
 자동차용품
@@ -442,7 +440,7 @@ API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 263
+누적 상품    : 267
 원인         : 정상 수집
 ----------------------------------------
 자동차용품
@@ -450,10 +448,10 @@ category     : car
 keyword      : vehicle accessories
 API 원본     : 20
 변환 성공    : 20
-중복 제거    : 3
-최종 추가    : 17
-누적 상품    : 280
-원인         : 정상 수집, 중복 3개 제외
+중복 제거    : 2
+최종 추가    : 18
+누적 상품    : 285
+원인         : 정상 수집, 중복 2개 제외
 ----------------------------------------
 반려동물
 category     : pet
@@ -462,7 +460,7 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 0
 최종 추가    : 19
-누적 상품    : 299
+누적 상품    : 304
 원인         : 정상 수집
 ----------------------------------------
 반려동물
@@ -472,7 +470,7 @@ API 원본     : 18
 변환 성공    : 18
 중복 제거    : 3
 최종 추가    : 15
-누적 상품    : 314
+누적 상품    : 319
 원인         : 정상 수집, 중복 3개 제외
 ----------------------------------------
 반려동물
@@ -482,17 +480,17 @@ API 원본     : 19
 변환 성공    : 19
 중복 제거    : 4
 최종 추가    : 15
-누적 상품    : 329
+누적 상품    : 334
 원인         : 정상 수집, 중복 4개 제외
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : beauty tools
-API 원본     : 14
-변환 성공    : 14
+API 원본     : 17
+변환 성공    : 17
 중복 제거    : 0
-최종 추가    : 14
-누적 상품    : 343
+최종 추가    : 17
+누적 상품    : 351
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
@@ -500,57 +498,56 @@ category     : beauty
 keyword      : beauty
 API 원본     : 18
 변환 성공    : 18
-중복 제거    : 1
-최종 추가    : 17
-누적 상품    : 360
-원인         : 정상 수집, 중복 1개 제외
+중복 제거    : 0
+최종 추가    : 18
+누적 상품    : 369
+원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
 keyword      : skincare
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 1
-최종 추가    : 18
-누적 상품    : 378
-원인         : 정상 수집, 중복 1개 제외
+API 원본     : 18
+변환 성공    : 18
+중복 제거    : 4
+최종 추가    : 14
+누적 상품    : 383
+원인         : 정상 수집, 중복 4개 제외
 ----------------------------------------
-저장 파일      : C:\A1Fate\Coding\Python\Blackship\data\products_en.json
-최종 저장 상품 : 378
+저장 파일      : /home/runner/work/System/System/data/products_en.json
+최종 저장 상품 : 383
 ========================================
 
 [en] 위험상품 / 검색오염 필터
-입력 상품       : 378
-허용 예외 통과  : 3
-위험상품 차단   : 10
-검색오염 제거   : 9
-큐레이션 후보   : 359
+입력 상품       : 383
+허용 예외 통과  : 2
+위험상품 차단   : 8
+검색오염 제거   : 10
+큐레이션 후보   : 365
 차단 상품
-- Gundam Color Matching PC Transparent Original Full Set Keycaps Compatible with Cross Shaft Mechanical Keyboards Anime Peripheral (키워드: gun)
-- HLDIRECT Gaming Chair, Ergonomic Computer Office Chair With Lumbar Support Footrest Headrest, Adjustable Height & Backrest Angle Video Gamer Chair, PU Leather, 360° Swivel, Adult,Black And Blue (키워드: adult)
 - Grandsharp Magnetic Wooden Saya Sheath Protector for Sashimi Knife Blade Storage Sheath Holder Kitchen Accessory (키워드: knife)
 - 5 Tier Acrylic Cigarettes Display Rack Clear Organizer for Store Countertop Seasoning Spice Rack Kitchen Cabinet (키워드: cigar)
 - Dollhouse Mini Kitchen Set Cutting Board Fruit Knife Cleaver Model Steak Placemat Miniature Toy for 1:12 Dollhouse (키워드: knife)
-- 2-in-1 Serrated Peeling Knife Premium Vegetable Peeler With Wooden Handle And Bottle Opener Kitchen Tool (키워드: knife)
 - Folding Camping Toilet High Quality Adult Movable Outdoor Toilet FoldiHot Selling Camping Tng Portable Travel Car Toilet Plastic (키워드: adult)
-- Factory Wholesale 20L RV caravan Portable Toilet Plastic Outdoor Camp Adult Toilet Portable Mobile Toilet (키워드: adult)
+- Portable Camping Toilet, Adult Portable Toilet, Adult Portable Ceramic, Foldable Waterproof Portable Ceramic For Camping, Train, Bucket, Traveling (키워드: adult)
+- Baofeng Long Range Walkie Talkies for Adults with Earpieces, 16 Channel Rechargeable Handheld Two Way Radio Walky Talky with Flashlight VOX for Adventure Family Camping Hiking Skiing Cruise (키워드: adult)
 - 2-section Adjustable Telescopic Mountaineering Pole Outdoor Four-season Hiking Pole Ski Pole for Adults Children (키워드: adult)
 - @1Pcs Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle Dog Cat Foot Wash Tool Shower Head (키워드: shower head for men)
 검색오염 제거 상품
 - 360° Rotation 3‑In‑1 Suction Cup Magnetic Phone Holder Multi‑Angle Adjustable Foldable Magnet Phone Stand Desktop Bracket New (living, 카테고리 관련 단서 없음)
 - Miffy New Style Cute Embossing Machine Puncher Rabbit Embossing Tool DIY Handcraft Accessory Creative Printing Machine Gifts (living, 카테고리 관련 단서 없음)
-- 2026 Sexy Lace Three-Piece Bikini Set with Mesh Skirt Short Swimwear Swimsuit New Arrival Fashionable Beachwear (fashion, 카테고리 관련 단서 없음)
 - Trailer Accessory Pintle Hook Pintle Hitches Receiver Hook Heavy Duty Hitch Mount Fits for Trailer Parts Off-road Vehicles (car, 카테고리 관련 단서 없음)
 - HOT games Watch Dogs 2 Dedsec  Phone Case For Samsung S26 S25 S24 S23 S22 S21 S20 Ultra Note20 Soft black Shockproof Cover (pet, 카테고리 관련 단서 없음)
 - Courage the C-Cowardly D-DogS  Phone Case For Samsung S26 S25 S24 S23 S22 S21 S20 Ultra Note20 Soft black Shockproof Cover (pet, 카테고리 관련 단서 없음)
 - Pajama Set My Melody 2026 Summer New Women's Short Sleeved Shorts Beautiful Girls Can Wear Outerwear Home Clothes Set Cute Sweet (beauty, 카테고리 관련 단서 없음)
+- Trendy Leopard Print Front‑Closure Triangle Bralette For Women Push‑Up Support Beautiful‑Back Comfortable Everyday & Date Bra (beauty, 카테고리 관련 단서 없음)
+- Women's Sports Fitness Yoga Suit Set Breathable Elastic Shorts Peach Bottom Smiling Face Design Beautiful Back Bra Yoga Pant (beauty, 카테고리 관련 단서 없음)
 - Funny Granny Underwear Beautiful Butterfly Gag Gift Granny Panties (beauty, 카테고리 관련 단서 없음)
 - Women's Comfort Pajamas Women's Beautiful Roosters Branches And Flowers Background Short Sleeve Set Sleepwear (beauty, 카테고리 관련 단서 없음)
 큐레이션 페이지 배정
-hidden   : 90
-value    : 90
-popular  : 90
-random   : 89
-전체 배정      : 359
+hidden   : 92
+value    : 91
+popular  : 91
+random   : 91
+전체 배정      : 365
 미배정 상품    : 0
 ----------------------------------------
