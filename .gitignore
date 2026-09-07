@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build Output
+Tools/
+_treasure/
+badamail.py
+chest_maker.py
+chestkey_maker.py
+data/products.json
+data/products_en.json
+data/curation_history.json
