@@ -1,5 +1,5 @@
 Blackship AliExpress fetch log
-created_at: 2026-09-06 17:54:59
+created_at: 2026-09-14 18:40:32
 ========================================
 
 [ko] AliExpress API 수집
@@ -10,284 +10,365 @@ page_no         : 1
 page_size       : 20
 limit           : 420
 ----------------------------------------
+[전자기기] 오늘의 탐색어: smart home gadget, raspberry pi, arduino
+카테고리 목표  : 60
 전자기기
 category     : electronics
-keyword      : keyboard
-API 원본     : 20
-변환 성공    : 20
+keyword      : smart home gadget
+API 원본     : 19
+변환 성공    : 19
 중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 20
-원인         : 정상 수집
-----------------------------------------
-전자기기
-category     : electronics
-keyword      : mechanical keyboard
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 40
+최종 추가    : 19
+카테고리 누적: 19/60
+전체 누적    : 19/420
 원인         : 정상 수집
 ----------------------------------------
 전자기기
 category     : electronics
-keyword      : computer
+keyword      : raspberry pi
 API 원본     : 20
 변환 성공    : 20
 중복 제거    : 0
 최종 추가    : 20
-누적 상품    : 60
+카테고리 누적: 39/60
+전체 누적    : 39/420
+원인         : 정상 수집
+----------------------------------------
+전자기기
+category     : electronics
+keyword      : arduino
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 59/60
+전체 누적    : 59/420
+원인         : 정상 수집
+----------------------------------------
+전자기기: 목표 60개 중 59개 확보
+----------------------------------------
+[생활용품] 오늘의 탐색어: bathroom storage, cleaning tools, home lighting
+카테고리 목표  : 60
+생활용품
+category     : living
+keyword      : bathroom storage
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 20/60
+전체 누적    : 79/420
 원인         : 정상 수집
 ----------------------------------------
 생활용품
 category     : living
-keyword      : kitchen organizer
-API 원본     : 20
-변환 성공    : 20
+keyword      : cleaning tools
+API 원본     : 19
+변환 성공    : 19
 중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 80
+최종 추가    : 19
+카테고리 누적: 39/60
+전체 누적    : 98/420
 원인         : 정상 수집
 ----------------------------------------
 생활용품
 category     : living
-keyword      : home storage
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 100
-원인         : 정상 수집
-----------------------------------------
-생활용품
-category     : living
-keyword      : kitchen tools
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 1
-최종 추가    : 18
-누적 상품    : 118
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : camping gear
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 137
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : camping
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 0
-최종 추가    : 19
-누적 상품    : 156
-원인         : 정상 수집
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : outdoor
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 0
-최종 추가    : 19
-누적 상품    : 175
-원인         : 정상 수집
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : hiking
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 2
-최종 추가    : 18
-누적 상품    : 193
-원인         : 정상 수집, 중복 2개 제외
-----------------------------------------
-패션잡화
-category     : fashion
-keyword      : fashion accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 213
-원인         : 정상 수집
-----------------------------------------
-패션잡화
-category     : fashion
-keyword      : fashion
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 13
-최종 추가    : 7
-누적 상품    : 220
-원인         : 정상 수집, 중복 13개 제외
-----------------------------------------
-패션잡화
-category     : fashion
-keyword      : accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 7
-최종 추가    : 13
-누적 상품    : 233
-원인         : 정상 수집, 중복 7개 제외
-----------------------------------------
-자동차용품
-category     : car
-keyword      : car accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 252
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-자동차용품
-category     : car
-keyword      : car
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 0
-최종 추가    : 19
-누적 상품    : 271
-원인         : 정상 수집
-----------------------------------------
-자동차용품
-category     : car
-keyword      : vehicle accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 290
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-반려동물
-category     : pet
-keyword      : pet supplies
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 310
-원인         : 정상 수집
-----------------------------------------
-반려동물
-category     : pet
-keyword      : pet
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 2
-최종 추가    : 18
-누적 상품    : 328
-원인         : 정상 수집, 중복 2개 제외
-----------------------------------------
-반려동물
-category     : pet
-keyword      : dog supplies
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 4
-최종 추가    : 15
-누적 상품    : 343
-원인         : 정상 수집, 중복 4개 제외
-----------------------------------------
-뷰티·건강
-category     : beauty
-keyword      : beauty tools
+keyword      : home lighting
 API 원본     : 17
 변환 성공    : 17
 중복 제거    : 0
 최종 추가    : 17
-누적 상품    : 360
+카테고리 누적: 56/60
+전체 누적    : 115/420
+원인         : 정상 수집
+----------------------------------------
+생활용품: 목표 60개 중 56개 확보
+----------------------------------------
+[취미·야외] 오늘의 탐색어: diy tools, board game accessory, survival gear
+카테고리 목표  : 60
+취미·야외
+category     : hobby
+keyword      : diy tools
+API 원본     : 18
+변환 성공    : 18
+중복 제거    : 0
+최종 추가    : 18
+카테고리 누적: 18/60
+전체 누적    : 133/420
+원인         : 정상 수집
+----------------------------------------
+취미·야외
+category     : hobby
+keyword      : board game accessory
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 38/60
+전체 누적    : 153/420
+원인         : 정상 수집
+----------------------------------------
+취미·야외
+category     : hobby
+keyword      : survival gear
+API 원본     : 18
+변환 성공    : 18
+중복 제거    : 0
+최종 추가    : 18
+카테고리 누적: 56/60
+전체 누적    : 171/420
+원인         : 정상 수집
+----------------------------------------
+취미·야외: 목표 60개 중 56개 확보
+----------------------------------------
+[패션잡화] 오늘의 탐색어: watch accessory, sunglasses, cap hat
+카테고리 목표  : 60
+패션잡화
+category     : fashion
+keyword      : watch accessory
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 20/60
+전체 누적    : 191/420
+원인         : 정상 수집
+----------------------------------------
+패션잡화
+category     : fashion
+keyword      : sunglasses
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 40/60
+전체 누적    : 211/420
+원인         : 정상 수집
+----------------------------------------
+패션잡화
+category     : fashion
+keyword      : cap hat
+API 원본     : 19
+변환 성공    : 19
+중복 제거    : 0
+최종 추가    : 19
+카테고리 누적: 59/60
+전체 누적    : 230/420
+원인         : 정상 수집
+----------------------------------------
+패션잡화: 목표 60개 중 59개 확보
+----------------------------------------
+[자동차용품] 오늘의 탐색어: car organizer, car charger, car mount
+카테고리 목표  : 60
+자동차용품
+category     : car
+keyword      : car organizer
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 2
+최종 추가    : 18
+카테고리 누적: 18/60
+전체 누적    : 248/420
+원인         : 정상 수집, 중복 2개 제외
+----------------------------------------
+자동차용품
+category     : car
+keyword      : car charger
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 38/60
+전체 누적    : 268/420
+원인         : 정상 수집
+----------------------------------------
+자동차용품
+category     : car
+keyword      : car mount
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 58/60
+전체 누적    : 288/420
+원인         : 정상 수집
+----------------------------------------
+자동차용품: 목표 60개 중 58개 확보
+----------------------------------------
+[반려동물] 오늘의 탐색어: pet travel, aquarium accessory, pet bed
+카테고리 목표  : 60
+반려동물
+category     : pet
+keyword      : pet travel
+API 원본     : 19
+변환 성공    : 19
+중복 제거    : 0
+최종 추가    : 19
+카테고리 누적: 19/60
+전체 누적    : 307/420
+원인         : 정상 수집
+----------------------------------------
+반려동물
+category     : pet
+keyword      : aquarium accessory
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 39/60
+전체 누적    : 327/420
+원인         : 정상 수집
+----------------------------------------
+반려동물
+category     : pet
+keyword      : pet bed
+API 원본     : 17
+변환 성공    : 17
+중복 제거    : 0
+최종 추가    : 17
+카테고리 누적: 56/60
+전체 누적    : 344/420
+원인         : 정상 수집
+----------------------------------------
+반려동물: 목표 60개 중 56개 확보
+----------------------------------------
+[뷰티·건강] 오늘의 탐색어: makeup organizer, facial care, hair accessory
+카테고리 목표  : 60
+뷰티·건강
+category     : beauty
+keyword      : makeup organizer
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 20/60
+전체 누적    : 364/420
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
-keyword      : beauty
-API 원본     : 16
-변환 성공    : 16
+keyword      : facial care
+API 원본     : 17
+변환 성공    : 17
 중복 제거    : 0
-최종 추가    : 16
-누적 상품    : 376
+최종 추가    : 17
+카테고리 누적: 37/60
+전체 누적    : 381/420
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
-keyword      : skincare
-API 원본     : 13
-변환 성공    : 13
+keyword      : hair accessory
+API 원본     : 19
+변환 성공    : 19
 중복 제거    : 0
-최종 추가    : 13
-누적 상품    : 389
+최종 추가    : 19
+카테고리 누적: 56/60
+전체 누적    : 400/420
 원인         : 정상 수집
+----------------------------------------
+뷰티·건강: 목표 60개 중 56개 확보
 ----------------------------------------
 저장 파일      : C:\A1Fate\Coding\Python\Blackship\data\products.json
-최종 저장 상품 : 389
+최종 저장 상품 : 400
 ========================================
 
 [ko] 위험상품 / 검색오염 필터
-입력 상품       : 389
-허용 예외 통과  : 12
-위험상품 차단   : 14
-검색오염 제거   : 26
-큐레이션 후보   : 349
+입력 상품       : 400
+허용 예외 통과  : 0
+위험상품 차단   : 5
+검색오염 제거   : 77
+큐레이션 후보   : 318
 차단 상품
-- 게임 의자 저렴한 커버 인체공학적 의자 컴퓨터 성인용 쿠션 인체공학적 게임용 스툴 사무용 가구 (키워드: 성인)
-- 칼날 홀더가 있는 도마 랙, 스테인리스 스틸 주방 칼날 스탠드, 도마 슬롯이 있는 조리대 정리대, 공간 절약형 (키워드: 칼)
-- 그랜드샤프 자석식 나무 사야 칼집 보호대, 사시미 칼날 보관용 칼집 홀더, 주방 액세서리 (키워드: 칼)
-- 5단 아크릴 담배 진열대, 매장 카운터탑 양념/향신료 랙, 주방 캐비닛용 투명 정리대 (키워드: 담배)
-- 칼날 홀더가 있는 도마 랙, 미끄럼 방지 주방 칼날 스탠드, 도마 슬롯이 있는 조리대 정리대, 컴팩트하고 다기능적인 제품 (키워드: 칼)
-- XITUO DIY 맞춤형 교체 손잡이 수제 주방 칼 손잡이 원목&투명 레진 손잡이 재료 부품 (키워드: 칼)
-- 2Pcs 로즈우드 주방 칼 손잡이 인체공학적 커터 그립 칼 수리용 교체 부품 홈 슬라이싱 도구 (키워드: 칼)
-- 2개입 나무 손잡이 주방칼 교체용 인체공학적 미끄럼 방지 커터 그립 수리 도구 (칼 손잡이 재료용) (키워드: 칼)
-- 일본산 고급 안정화 목재 레진 핸들 하트 모양 칼 손잡이 DIY 셰프용 주방 칼 공장 맞춤형 칼 손잡이 (키워드: 칼)
-- 일본식 주방 칼 손잡이 팔각형 손잡이 교체 공예품 블랙 G10 소재 사시미 칼 셰프 나이프 손잡이 (키워드: 칼)
-- 접이식 캠핑 화장실 고품질 성인용 이동식 야외 화장실 접이식 인기 판매 캠핑용 휴대용 여행용 차량용 화장실 플라스틱 (키워드: 성인)
-- 공장 도매 20L RV 카라반 휴대용 변기 플라스틱 야외 캠핑 성인용 변기 이동식 변기 (키워드: 성인)
-- @1Pcs 남성용 전체 청소 마사지 스프레이 샤워 헤드 다기능 위생 샤워 노즐 개 고양이 발 세척 도구 샤워 헤드 (키워드: 남성용 전체 청소)
-- 나무 눈썹 연필 샤프너, 끊어지지 않는 칼날형 팁, 간편한 수동 샤프너, 모든 나무 눈썹 연필과 호환 (키워드: 칼)
+- 나무 비즈 공예 키트, 길이 조절 가능, 데스크탑 직조 도구, DIY 팔찌 목걸이 쥬얼리 제작 공예 용품 (성인용) (키워드: 성인)
+- 해피 할로윈 코스프레 모자 조커 모자 성인 파티 선물 소품 액세서리 놀라운 재미있는 화려한 광대 복장 (키워드: 성인)
+- 한국 스타일 스팽글 재즈 모자 성인 어린이 공연 댄스 생일 모자 블랙 스팽글 파티 모자 어린이 축제 모자 (키워드: 성인)
+- 1Pc 골프 모자 와이드 브림 태양 보호 모자 탄성 밴드 바이저 캡 어린이 성인을위한 골퍼 액세서리 (키워드: 성인)
+- 휴대용 메이크업 거울 수납함 LED 조명 여행용 화장품 가방 대용량 데스크탑 정리함 성인용 접이식 (키워드: 성인)
 검색오염 제거 상품
-- 360 °   회전식 3-in-1 흡착식 자석 휴대폰 홀더 다각도 조절 가능 접이식 자석 휴대폰 스탠드 데스크탑 브래킷 신제품 (living, 카테고리 관련 단서 없음)
-- 카피바라 휴대용 도시락 샌드위치 실리콘 토스트 모양 벤토 도시락 뚜껑 포함 사무실 학교 야외 점심 도시락 용기 선물 (living, 카테고리 관련 단서 없음)
-- CIFBUY 금속 벽 장식 추상적인 디자인 철제 공예 조각품 실내외용 가정 사무실 교회 장식판 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 히브리어 글자 금속 조각품 벽걸이 장식판 방청 처리된 실내외 거실 사무실 장식품 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 이슬람 아랍어 캘리그라피 금속 벽 장식 미니멀리스트 홈 데코 - 거실, 사무실, 실내외, 문화적 인테리어용 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 금속 벽 장식 히브리어 레터링 사인 철제 공예 조각품 실내외 빈티지 러스틱 팜하우스 장식판 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 빈티지 금속 조각 유대교 장식 방청 처리된 벽걸이 장식판 가정용 실내외 전시용 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 히브리어 글자 금속 조각 방청 처리된 걸이형 장식판 가정 및 사무실 실내외 장식용 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 빈티지 히브리어 캘리그라피 금속 조각 방청 처리된 벽걸이 장식판 실내외 종교 장식 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 이슬람풍 판자탄팍 캘리그라피 금속 벽 장식 미니멀리스트 홈 데코 실내외 파티오 발코니 영적 인테리어용 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 메탈 벽 장식 빈티지 히브리어 캘리그라피 표지판 철제 공예 조각품 실내외용 거실 침실 서재 장식판 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 유대인의 별 금속 벽 장식 철 조각품 거실 침실 실내외 홈 데코 선물 녹 방지 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 철제 벽 장식 빈티지 히브리어 캘리그라피 금속 조각 방청 처리된 걸이형 장식판 실내외 종교 장식 표지판 (hobby, 카테고리 관련 단서 없음)
-- CIFBUY 금속 벽 장식 히브리어 사랑 문구 철제 공예 조각품 실내외 가정 침실 커플 장식판 (hobby, 카테고리 관련 단서 없음)
-- 유대교 축제 석류 냅킨 링 실리콘 몰드 레진 에폭시 테이블 장식 주조 몰드 (fashion, 카테고리 관련 단서 없음)
-- 칭준 12DI 12DO 트랜지스터 출력 PLC 2AI 2AO 0-20mA 0-10V RS485 Modbus RTU 프로그래밍 가능 로직 컨트롤러 (세차용) (car, 카테고리 관련 단서 없음)
-- 2피스 간호사 유니폼 탄력있는 의사 간호사 동물병원 유니폼 세트 반팔 상의 스트레이트 팬츠 무광 세트 (pet, 카테고리 관련 단서 없음)
-- 귀여운 빈티지 북 도그 리치 패턴 폰 케이스 삼성 갤럭시 A56 A55 A53 A54 A36 A15 A16 5G S23 S23 S24 울트라 S25 FE 커버 (pet, 카테고리 관련 단서 없음)
-- HOT 게임즈 워치독스 2 데드섹 폰 케이스 삼성 S26 S25 S24 S23 S22 S21 S20 울트라 노트20용 소프트 블랙 충격 방지 커버 (pet, 카테고리 관련 단서 없음)
-- 여름 남성용 재미있는 만화 핫도그 3D 프린트 보드 쇼츠 빠른 건조 드로스트링 트렁크 재미있는 노란 오리 디자인 비치 남성용 쇼츠 S (pet, 카테고리 관련 단서 없음)
-- 파자마 세트 마이멜로디 2026 여름 신상 여성 반팔 반바지 예쁜 소녀들이 입을 수 있는 아우터웨어 홈웨어 세트 귀엽고 달콤한 (beauty, 카테고리 관련 단서 없음)
-- 트렌디한 레오파드 프린트 앞잠금 삼각 브라렛 여성용 푸쉬업 서포트 아름다운 뒷모습 편안한 데일리 & 데이트 브라 (beauty, 카테고리 관련 단서 없음)
-- 여성 스포츠 피트니스 요가복 세트 통기성 좋은 탄력 반바지 피치 바텀 스마일 디자인 아름다운 등 라인 브라 요가 팬츠 (beauty, 카테고리 관련 단서 없음)
-- 재미있는 할머니 속옷 아름다운 나비 장난 선물 할머니 팬티 (beauty, 카테고리 관련 단서 없음)
-- 여성용 컨트롤 팬티, 패드 내장 힙업 효과, 복부 보정, 나일론 소재, BBL 기술, 아름다운 삼각형 디자인 (beauty, 카테고리 관련 단서 없음)
-- 여성용 편안한 잠옷 여성용 아름다운 수탉 나뭇가지와 꽃 배경 반팔 세트 잠옷 (beauty, 카테고리 관련 단서 없음)
+- 레노버 3-in-1 스마트 스위핑 로봇 진공청소기 4000Pa 카펫/하드 플로어 가정용 청소기 (electronics, 카테고리 관련 단서 없음)
+- 레노버 3-in-1 스마트 스위핑 로봇 진공청소기 4000Pa 카펫/하드 플로어 가정용 청소기 (electronics, 카테고리 관련 단서 없음)
+- 새로운 2800PA 3-in-1 RS800 리모컨 및 앱 포함 초저소음 스마트 로봇 진공 청소기 습식 및 건식 청소 바닥 가전제품 (electronics, 카테고리 관련 단서 없음)
+- 홈 어시스턴트 그린 스마트 허브, 개인 정보 보호 중심의 홈 오토메이션 컨트롤러, 플러그 앤 플레이 네트워크 게이트웨이 (electronics, 카테고리 관련 단서 없음)
+- 5개 레드 미니 토글 스위치 SPDT DPDT 2 3 포지션 ON-ON ON-OFF-ON 방수 캡 포함 MTS-102 103 202 203 302 303 402 403 (electronics, 카테고리 관련 단서 없음)
+- 투야 영국 스마트 플러그 WiFi 블루투스 에너지 모니터 음성 제어 알렉사 구글 타이머 원격 앱 홈 오토메이션 미니 소켓 플러그 (electronics, 카테고리 관련 단서 없음)
+- 500ML 용량 향수 디퓨저 가정용 스마트 향기 공기 기계 전문 물이없는 에센셜 오일 디퓨저 공기 청정기 (electronics, 카테고리 관련 단서 없음)
+- 새로운 스마트 청소 및 걸레 로봇 진공 청소기 건식 및 습식 청소 충전식 로봇 가전 제품(가습 스프레이 포함) (electronics, 카테고리 관련 단서 없음)
+- JIMIHOME 전압 검출기 스마트 비접촉 테스터 펜 미터 12-250V AC/DC 전기 센서 다기능 테스트 도구 (electronics, 카테고리 관련 단서 없음)
+- FUERS 4 인치 터치 스크린 다기능 스마트 벽 스위치 T3E 스위치 장면 패널 지능형 홈 터치 스크린 Zigbee (electronics, 카테고리 관련 단서 없음)
+- 스마트 링 사이징 키트 링 측정 도구 7개 샘플 링 사이즈 구매 전 스마트 링 사이즈 측정하여 링 사이즈를 7~13 사이즈로 찾아보세요 (electronics, 카테고리 관련 단서 없음)
+- 완전 자동 가정용 스마트 창문 청소 기기 2026년형 새로운 창문 청소 로봇 전동 유리 청소기 (electronics, 카테고리 관련 단서 없음)
+- 2026 PLC 프로그래밍 컨트롤러, IOT 게이트웨이 라즈베리 파이 CM5 WIFI 4G LTE RS485 릴레이 DO DI 리눅스 프로그래머블 로직 컨트롤러 (electronics, 카테고리 관련 단서 없음)
+- DOGZILLA-Lite 15DOF AI 바이오닉 로봇 강아지 라즈베리 파이 메인 컨트롤러 5MP 카메라 3DOF 로봇 팔 포함 (electronics, 카테고리 관련 단서 없음)
+- 2026년 신제품 uConsoleRPI-CM4 Lite＋ 라즈베리 파이 CM4 104000 lite，＋WIFI+4G 셀룰러，재고 있음 (electronics, 카테고리 관련 단서 없음)
+- 새로운 라즈베리 파이 5 모델 B 2GB 4GB 8GB 16GB RAM 듀얼 밴드 WIFI 지원 POE 라즈베리 파이 5 (electronics, 카테고리 관련 단서 없음)
+- 【핫세일】라즈베리 파이 3b+ 2GB/4GB/8GB/16GB RAM IoT/M2M 애플리케이션용 고품질 개발 키트 표준 (electronics, 카테고리 관련 단서 없음)
+- 라즈베리 파이 5는 브로드컴 BCM2712 쿼드코어 Arm Cortex A76 프로세서와 4GB, 8GB, 16GB RAM을 탑재했습니다. (electronics, 카테고리 관련 단서 없음)
+- 5/10pcs 360 로터리 엔코더 노브 버튼 스위치 EC11 20 포지션 증분형 아두이노 디지털 전위차계 15/20mm 플럼 하프 샤프트 (electronics, 카테고리 관련 단서 없음)
+- 아두이노용 수질 다중 매개변수 탁도계용 인라인 탁도 측정 프로브 센서 (electronics, 카테고리 관련 단서 없음)
+- DIY 4.7x11.6cm 녹색 단면 프로토 타입 종이 PCB 범용 실험 매트릭스 회로 기판, 아두이노용 47x116mm, 1 개 (electronics, 카테고리 관련 단서 없음)
+- 네일아트 각질 제거 스틸 푸셔 금속 스푼 흡연 파이프 오일 클리닝 스너프 스푼 캔들 조각 프레싱 로드 도구 남녀 공용 선물 (living, 카테고리 관련 단서 없음)
+- 【ESTR】 트레이딩 카드 평탄화 및 세척 키트, 열전사 펜(USB) 및 열전사 용지, 카드 등급 분류 준비 및 중앙 정렬 관리 도구 (living, 카테고리 관련 단서 없음)
+- b11-7.2 모던 미니멀리스트 라이트 럭셔리 홈 테이블, 야외 레스토랑, 바, 카페, 모던 미니멀리스트 스타일 테이블 (living, 카테고리 관련 단서 없음)
+- 정교한 속이 빈 레이스 상단 장식 정교회 기도등 금박 금속 십자가 레드 웨이브 유리 홈 아이콘 제단 종교 성물 장식품 S (living, 카테고리 관련 단서 없음)
+- b11-7.2 라이트 럭셔리 대리석 커피 테이블 새집 거실 사각형 고급 와비사비풍 서스펜션 박스 티 테이블 (living, 카테고리 관련 단서 없음)
+- 아이케어 풀 오리지널 키트 개봉된 상태의 미사용 R1c 레이저 홈시어터 프로젝터 모션 보정 저블루라이트 (living, 카테고리 관련 단서 없음)
+- b11-7.2 라이트 럭셔리 모던 록 슬래브 커피 테이블 홈 크리에이티브 소형 아파트 유명인용 라운드 크림 스타일 조합 (living, 카테고리 관련 단서 없음)
+- 1개의 DIY 크리징 휠 - 공예용 크리징 기계, 크리징 도구, 가정용 DIY, 인체공학적 손잡이 (hobby, 카테고리 관련 단서 없음)
+- 앤틱 레드 우드 왁스 씰 핸들 (교체 가능한 구리 스탬프 헤드 포함) DIY 수공예 웨딩 초대장 레트로 씰링 스탬프 도구 (hobby, 카테고리 관련 단서 없음)
+- 프레스 다운 도구 교체 가능한 커팅 헤드 네트워크 액션 도구 DIY 애호가를 위한 인체공학적 그립 (hobby, 카테고리 관련 단서 없음)
+- 페러르 비즈 이중 바늘 집게 다기능 인체공학적 그립 도구 (수공예 DIY 비즈 분류 및 조립용) (hobby, 카테고리 관련 단서 없음)
+- 3 in 1 네일 스테이플러 건 (스테이플 3000개 포함) 및 스테이플 제거 도구 키트, 목재/직물용 스테이플러, 가정 수리 DIY 도구 키트 (hobby, 카테고리 관련 단서 없음)
+- 4pcs 자수 스타터 키트 DIY 크로스 스티치 개구리 패턴 공예 재료 휴대용 바늘 제거기 스레딩 도구 (후프 포함) 어린이용 (hobby, 카테고리 관련 단서 없음)
+- 꿀벌 테마 DIY 패브릭 아트 키트 (프레임 및 도구 포함) 패브릭 모자이크 벽 장식 공예 세트 핸드메이드 무바느질 패브릭 포크 아트 키트 홈 데코 (hobby, 카테고리 관련 단서 없음)
+- 2/3/4/5mm 프린트 클레이 젤 볼 메이커 재사용 가능한 DIY 비즈 도구 (보석 제작, 홈 워크샵, 수제 공예 용품) (hobby, 카테고리 관련 단서 없음)
+- 전문가용 휴대용 비즈 공예 및 주얼리 수리 도구 키트, 목걸이, 팔찌, 귀걸이 DIY 제작을 위한 완전한 액세서리와 와이어 점프 링 포함 (hobby, 카테고리 관련 단서 없음)
+- 1팩 DIY 보석 제작 도구 - 비즈 매듭기, 팔찌 및 실크 실 공예용, 플라스틱 재질 (hobby, 카테고리 관련 단서 없음)
+- 37개 크로셰 훅 세트, 보관 가방 포함, 부드러운 손잡이 크로셰 바늘, 뜨개질 바늘 세트, 초보자용 DIY 바느질 및 직조 도구 (hobby, 카테고리 관련 단서 없음)
+- 비닐 제거 도구 세트 공예 도구 스크레이퍼 핀셋 커팅 머신용 DIY 스티커 스크랩북킹 수제 공예 카드 용품 (hobby, 카테고리 관련 단서 없음)
+- 모델 제작 도구 키트, 전문가용 건담 조립 및 광택 세트, 건담 군용 모델 및 취미 DIY 공예 제작에 이상적 (hobby, 카테고리 관련 단서 없음)
+- 래칫 크림핑 플라이어 노동 절약형 와이어 커넥터 크림핑 도구 터미널 크림퍼 DIY 애호가를 위한 사용하기 쉬운 배선 플라이어 (hobby, 카테고리 관련 단서 없음)
+- 3D 버섯집 포케 아트 DIY 키트 패브릭 펀치 니들 자수 세트 수공예 키트 (도구 및 다채로운 실 포함) 홈 데코 (hobby, 카테고리 관련 단서 없음)
+- DIY에 적합한 5L 듀폰 종이 내부 가방 소형 토트 보관 가방 가정용 보관 도구 간편 정리 솔루션 (hobby, 카테고리 관련 단서 없음)
+- 오르슈페팡 그레이스톤 제노스 야에 갈부스 코스프레 애니메이션 스탠딩 사인 표지판 소품 아크릴 스탠드 피규어 액세서리 팬용 (hobby, 카테고리 관련 단서 없음)
+- Honkai: 스타 레일 Herta Anaxagoras 애니메이션 Quicksand 마작 아크릴 드리프트 샌드 스탠딩 보드 Cospaly Collect Gift Cartoon (hobby, 카테고리 관련 단서 없음)
+- 10인치 전술용 MOLLE 유틸리티 파우치, 대형 EDC 오거나이저 및 허리 가방, 고강도 나일론 파우치 생존/장비 가방 (hobby, 카테고리 관련 단서 없음)
+- 1000D 나일론 코듀라 원단 방수 전술 장비 옥스포드 원단 내구성 PU 코팅 러시아 서퍼패트 서바이벌 패턴 위장 (hobby, 카테고리 관련 단서 없음)
+- BM42/BM43/BM40 트레이너 미러 마감 440C 스틸 EDC 도구 일상 휴대용 포켓 나이프 생존 장비 (hobby, 카테고리 관련 단서 없음)
+- 2pcs 접이식 전화 스탠드 스프링 버클 키 체인 스마트 폰 비디오 빙게 시청을위한 휴대용 여행 핸즈프리 홀더 (fashion, 카테고리 관련 단서 없음)
+- 이중 레이어 카고 네트, 탄성 카고 네트, 메쉬가 있는 트렁크 정리망, 여행자, 로드 트립용, 튼튼한 고강도 (car, 카테고리 관련 단서 없음)
+- 미니 포지 1:64 1969년형 차저 제너럴 리 노출형 블로운 V8 다이캐스트 모델카 한정판 레어 컬렉션 미니어처 선물 (car, 카테고리 관련 단서 없음)
+- 5Pcs 가볍고 투명한 플라스틱 주스병(캡 포함) 여행용 주스 냉장고용 소형 재사용 가능한 우유 음료 용기 (pet, 카테고리 관련 단서 없음)
+- 스쿠비 두 드로스트링 수납 가방 멋진 만화 개 포켓 백팩 폴리에스터 귀여운 애니메이션 프린트 경량 여행용 정리 가방 (pet, 카테고리 관련 단서 없음)
+- 6개입 네일 리무버 펌프형 용기, 투명/검정색, 누수 방지, 여행용/미용실용, 재사용 가능, 매니큐어 액체 보관용 (pet, 카테고리 관련 단서 없음)
+- 거북이 등반 사다리 플라스틱 휴식 램프 동물 사육장 액세서리 물거북 플랫폼 (거북 수족관용) (pet, 카테고리 관련 단서 없음)
+- Tr21-4 - W21.8 어댑터 듀얼 아웃렛 탄산화 시스템 어댑터 CO2 실린더 커넥터 금속 구조 가스 액세서리 누출 방지 (pet, 카테고리 관련 단서 없음)
+- 버블 카운터 및 액세서리가 포함된 수족관 CO2 조절기, 소형 CO2 션트 솔레노이드 밸브, 어항 유량 제어 시스템 (pet, 카테고리 관련 단서 없음)
+- 귀여운 해양 생물 테마 레진 피규어 컬렉션 세트 (카와이 CKW 아쿠아리움 블라인드 박스) (pet, 카테고리 관련 단서 없음)
+- 수영장 잎망사망망, 잎사귀 잔해물 청소용 메쉬 도구, 수영장/연못/어항 청소용 액세서리, 알루미늄 휴대용 (pet, 카테고리 관련 단서 없음)
+- 수족관용 외부 필터 흡입관, 조절 가능한 ABS 재질의 샤워형 배수관, 수족관 액세서리, 수족관 물 순환 시스템용 (pet, 카테고리 관련 단서 없음)
+- 거북이 등반 사다리 플라스틱 휴식 램프 동물 사육장 액세서리 물거북 플랫폼 (거북 수족관용) (pet, 카테고리 관련 단서 없음)
+- 수족관 액세서리 투명 수생 번식 상자(후크 포함) 아크릴 수족관 부화기 소형형 (pet, 카테고리 관련 단서 없음)
+- 육지거북이를 위한 거북이 햇볕욕 플랫폼, 정돈된 울타리, 수족관 및 테라리움 액세서리, 서식지 (pet, 카테고리 관련 단서 없음)
+- 현실적인 인어 조각상 수지 수족관 장식 거실 선반용 창의적인 어항 액세서리 (pet, 카테고리 관련 단서 없음)
+- 공장 직영 야외 정원 연못 폭포 여과 시스템 숨김형 폭포 필터 키트 수족관 액세서리 (pet, 카테고리 관련 단서 없음)
+- 오션 시리즈 키체인 가방 걸이 지퍼 장식 재고 있음 선물 우사기 하치웨어 치이 동물원 수족관 모델 장식품 귀여운 (pet, 카테고리 관련 단서 없음)
+- 치이카와 수족관 오르카 고래 코스프레 플러시 펜던트 만화 인형 가방 참 키체인 장식 소녀들을 위한 선물 (pet, 카테고리 관련 단서 없음)
+- 필터 박스 액세서리 어항 수족관 트리클 생산 다콴 회전율 순환 시스템 (pet, 카테고리 관련 단서 없음)
+- 50W 태양광 워터 펌프 세트 저소음 DC 브러시리스 모터 수중 워터 펌프 물고기 연못 정원 분수 수족관 액세서리 (pet, 카테고리 관련 단서 없음)
+- 2개입 워터 타워 조인트 ABS 외부 나사 G1인치 3/4인치 1/2인치 커넥터 탱크 배수관 액세서리 수족관 조인트 워터 파이프 피팅 (pet, 카테고리 관련 단서 없음)
+- 현실적인 미니어처 해양 생물 바다 거북이 모델, 해양 동물 거북이 인형, 수족관 장식, 어항 액세서리 장난감 (pet, 카테고리 관련 단서 없음)
+- 비 반환 편도 체크 밸브, CO2 수족관 어항 물 공기 펌프, 항공사 1 개 (pet, 카테고리 관련 단서 없음)
+- 양면 어항 스펀지 클리너 긴 손잡이 수족관 조류 제거기 다기능 15.6인치 수족관 액세서리 (pet, 카테고리 관련 단서 없음)
+- 맞춤형 높이 조절 가능 스테인리스 스틸 튼튼한 애견 침대 휴대용 야외용 세탁 가능 친환경 고급 소파 침대 (pet, 카테고리 관련 단서 없음)
+- ♥️당일발송♥️ 로드웰 방수 크로스백 (beauty, 카테고리 관련 단서 없음)
+- 9팩 X(진공청소기 먼지 디스플레이 LED 램프 숨겨진 먼지 청소, 애완동물 털 청소기 액세서리(가정용 애완동물 가게용) (beauty, 카테고리 관련 단서 없음)
 큐레이션 페이지 배정
-hidden   : 88
-value    : 87
-popular  : 87
-random   : 87
-전체 배정      : 349
+hidden   : 80
+value    : 80
+popular  : 79
+random   : 79
+전체 배정      : 318
 미배정 상품    : 0
 ----------------------------------------
 
@@ -299,259 +380,325 @@ page_no         : 1
 page_size       : 20
 limit           : 420
 ----------------------------------------
+[전자기기] 오늘의 탐색어: smart home gadget, raspberry pi, arduino
+카테고리 목표  : 60
 전자기기
 category     : electronics
-keyword      : keyboard
-API 원본     : 17
-변환 성공    : 17
+keyword      : smart home gadget
+API 원본     : 12
+변환 성공    : 12
 중복 제거    : 0
-최종 추가    : 17
-누적 상품    : 17
+최종 추가    : 12
+카테고리 누적: 12/60
+전체 누적    : 12/420
 원인         : 정상 수집
-----------------------------------------
-전자기기
-category     : electronics
-keyword      : mechanical keyboard
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 2
-최종 추가    : 17
-누적 상품    : 34
-원인         : 정상 수집, 중복 2개 제외
 ----------------------------------------
 전자기기
 category     : electronics
-keyword      : computer
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 54
-원인         : 정상 수집
-----------------------------------------
-생활용품
-category     : living
-keyword      : kitchen organizer
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 74
-원인         : 정상 수집
-----------------------------------------
-생활용품
-category     : living
-keyword      : home storage
-API 원본     : 18
-변환 성공    : 18
-중복 제거    : 0
-최종 추가    : 18
-누적 상품    : 92
-원인         : 정상 수집
-----------------------------------------
-생활용품
-category     : living
-keyword      : kitchen tools
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 111
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : camping gear
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 131
-원인         : 정상 수집
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : camping
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 151
-원인         : 정상 수집
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : outdoor
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 0
-최종 추가    : 19
-누적 상품    : 170
-원인         : 정상 수집
-----------------------------------------
-취미·야외
-category     : hobby
-keyword      : hiking
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 3
-최종 추가    : 17
-누적 상품    : 187
-원인         : 정상 수집, 중복 3개 제외
-----------------------------------------
-패션잡화
-category     : fashion
-keyword      : fashion accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 207
-원인         : 정상 수집
-----------------------------------------
-패션잡화
-category     : fashion
-keyword      : fashion
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 13
-최종 추가    : 7
-누적 상품    : 214
-원인         : 정상 수집, 중복 13개 제외
-----------------------------------------
-패션잡화
-category     : fashion
-keyword      : accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 10
-최종 추가    : 10
-누적 상품    : 224
-원인         : 정상 수집, 중복 10개 제외
-----------------------------------------
-자동차용품
-category     : car
-keyword      : car accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 243
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-자동차용품
-category     : car
-keyword      : car
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 0
-최종 추가    : 20
-누적 상품    : 263
-원인         : 정상 수집
-----------------------------------------
-자동차용품
-category     : car
-keyword      : vehicle accessories
-API 원본     : 20
-변환 성공    : 20
-중복 제거    : 1
-최종 추가    : 19
-누적 상품    : 282
-원인         : 정상 수집, 중복 1개 제외
-----------------------------------------
-반려동물
-category     : pet
-keyword      : pet supplies
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 0
-최종 추가    : 19
-누적 상품    : 301
-원인         : 정상 수집
-----------------------------------------
-반려동물
-category     : pet
-keyword      : pet
-API 원본     : 18
-변환 성공    : 18
-중복 제거    : 3
-최종 추가    : 15
-누적 상품    : 316
-원인         : 정상 수집, 중복 3개 제외
-----------------------------------------
-반려동물
-category     : pet
-keyword      : dog supplies
-API 원본     : 19
-변환 성공    : 19
-중복 제거    : 4
-최종 추가    : 15
-누적 상품    : 331
-원인         : 정상 수집, 중복 4개 제외
-----------------------------------------
-뷰티·건강
-category     : beauty
-keyword      : beauty tools
+keyword      : raspberry pi
 API 원본     : 15
 변환 성공    : 15
 중복 제거    : 0
 최종 추가    : 15
-누적 상품    : 346
+카테고리 누적: 27/60
+전체 누적    : 27/420
+원인         : 정상 수집
+----------------------------------------
+전자기기
+category     : electronics
+keyword      : arduino
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 47/60
+전체 누적    : 47/420
+원인         : 정상 수집
+----------------------------------------
+전자기기: 목표 60개 중 47개 확보
+----------------------------------------
+[생활용품] 오늘의 탐색어: bathroom storage, cleaning tools, home lighting
+카테고리 목표  : 60
+생활용품
+category     : living
+keyword      : bathroom storage
+API 원본     : 19
+변환 성공    : 19
+중복 제거    : 0
+최종 추가    : 19
+카테고리 누적: 19/60
+전체 누적    : 66/420
+원인         : 정상 수집
+----------------------------------------
+생활용품
+category     : living
+keyword      : cleaning tools
+API 원본     : 18
+변환 성공    : 18
+중복 제거    : 0
+최종 추가    : 18
+카테고리 누적: 37/60
+전체 누적    : 84/420
+원인         : 정상 수집
+----------------------------------------
+생활용품
+category     : living
+keyword      : home lighting
+API 원본     : 18
+변환 성공    : 18
+중복 제거    : 0
+최종 추가    : 18
+카테고리 누적: 55/60
+전체 누적    : 102/420
+원인         : 정상 수집
+----------------------------------------
+생활용품: 목표 60개 중 55개 확보
+----------------------------------------
+[취미·야외] 오늘의 탐색어: diy tools, board game accessory, survival gear
+카테고리 목표  : 60
+취미·야외
+category     : hobby
+keyword      : diy tools
+API 원본     : 16
+변환 성공    : 16
+중복 제거    : 0
+최종 추가    : 16
+카테고리 누적: 16/60
+전체 누적    : 118/420
+원인         : 정상 수집
+----------------------------------------
+취미·야외
+category     : hobby
+keyword      : board game accessory
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 36/60
+전체 누적    : 138/420
+원인         : 정상 수집
+----------------------------------------
+취미·야외
+category     : hobby
+keyword      : survival gear
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 56/60
+전체 누적    : 158/420
+원인         : 정상 수집
+----------------------------------------
+취미·야외: 목표 60개 중 56개 확보
+----------------------------------------
+[패션잡화] 오늘의 탐색어: watch accessory, sunglasses, cap hat
+카테고리 목표  : 60
+패션잡화
+category     : fashion
+keyword      : watch accessory
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 20/60
+전체 누적    : 178/420
+원인         : 정상 수집
+----------------------------------------
+패션잡화
+category     : fashion
+keyword      : sunglasses
+API 원본     : 3
+변환 성공    : 3
+중복 제거    : 0
+최종 추가    : 3
+카테고리 누적: 23/60
+전체 누적    : 181/420
+원인         : 정상 수집
+----------------------------------------
+패션잡화
+category     : fashion
+keyword      : cap hat
+API 원본     : 19
+변환 성공    : 19
+중복 제거    : 0
+최종 추가    : 19
+카테고리 누적: 42/60
+전체 누적    : 200/420
+원인         : 정상 수집
+----------------------------------------
+패션잡화: 목표 60개 중 42개 확보
+----------------------------------------
+[자동차용품] 오늘의 탐색어: car organizer, car charger, car mount
+카테고리 목표  : 60
+자동차용품
+category     : car
+keyword      : car organizer
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 20/60
+전체 누적    : 220/420
+원인         : 정상 수집
+----------------------------------------
+자동차용품
+category     : car
+keyword      : car charger
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 40/60
+전체 누적    : 240/420
+원인         : 정상 수집
+----------------------------------------
+자동차용품
+category     : car
+keyword      : car mount
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 60/60
+전체 누적    : 260/420
+원인         : 정상 수집
+----------------------------------------
+[반려동물] 오늘의 탐색어: pet travel, aquarium accessory, pet bed
+카테고리 목표  : 60
+반려동물
+category     : pet
+keyword      : pet travel
+API 원본     : 18
+변환 성공    : 18
+중복 제거    : 0
+최종 추가    : 18
+카테고리 누적: 18/60
+전체 누적    : 278/420
+원인         : 정상 수집
+----------------------------------------
+반려동물
+category     : pet
+keyword      : aquarium accessory
+API 원본     : 19
+변환 성공    : 19
+중복 제거    : 0
+최종 추가    : 19
+카테고리 누적: 37/60
+전체 누적    : 297/420
+원인         : 정상 수집
+----------------------------------------
+반려동물
+category     : pet
+keyword      : pet bed
+API 원본     : 16
+변환 성공    : 16
+중복 제거    : 0
+최종 추가    : 16
+카테고리 누적: 53/60
+전체 누적    : 313/420
+원인         : 정상 수집
+----------------------------------------
+반려동물: 목표 60개 중 53개 확보
+----------------------------------------
+[뷰티·건강] 오늘의 탐색어: makeup organizer, facial care, hair accessory
+카테고리 목표  : 60
+뷰티·건강
+category     : beauty
+keyword      : makeup organizer
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 20/60
+전체 누적    : 333/420
 원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
-keyword      : beauty
-API 원본     : 18
-변환 성공    : 18
-중복 제거    : 2
-최종 추가    : 16
-누적 상품    : 362
-원인         : 정상 수집, 중복 2개 제외
+keyword      : facial care
+API 원본     : 20
+변환 성공    : 20
+중복 제거    : 0
+최종 추가    : 20
+카테고리 누적: 40/60
+전체 누적    : 353/420
+원인         : 정상 수집
 ----------------------------------------
 뷰티·건강
 category     : beauty
-keyword      : skincare
-API 원본     : 19
-변환 성공    : 19
+keyword      : hair accessory
+API 원본     : 20
+변환 성공    : 20
 중복 제거    : 1
-최종 추가    : 18
-누적 상품    : 380
+최종 추가    : 19
+카테고리 누적: 59/60
+전체 누적    : 372/420
 원인         : 정상 수집, 중복 1개 제외
 ----------------------------------------
+뷰티·건강: 목표 60개 중 59개 확보
+----------------------------------------
 저장 파일      : C:\A1Fate\Coding\Python\Blackship\data\products_en.json
-최종 저장 상품 : 380
+최종 저장 상품 : 372
 ========================================
 
 [en] 위험상품 / 검색오염 필터
-입력 상품       : 380
-허용 예외 통과  : 2
-위험상품 차단   : 8
-검색오염 제거   : 8
-큐레이션 후보   : 364
+입력 상품       : 372
+허용 예외 통과  : 0
+위험상품 차단   : 10
+검색오염 제거   : 35
+큐레이션 후보   : 327
 차단 상품
-- HLDIRECT Gaming Chair, Ergonomic Computer Office Chair With Lumbar Support Footrest Headrest, Adjustable Height & Backrest Angle Video Gamer Chair, PU Leather, 360° Swivel, Adult,Black And Blue (키워드: adult)
-- Grandsharp Magnetic Wooden Saya Sheath Protector for Sashimi Knife Blade Storage Sheath Holder Kitchen Accessory (키워드: knife)
-- 5 Tier Acrylic Cigarettes Display Rack Clear Organizer for Store Countertop Seasoning Spice Rack Kitchen Cabinet (키워드: cigar)
-- Dollhouse Mini Kitchen Set Cutting Board Fruit Knife Cleaver Model Steak Placemat Miniature Toy for 1:12 Dollhouse (키워드: knife)
-- Folding Camping Toilet High Quality Adult Movable Outdoor Toilet FoldiHot Selling Camping Tng Portable Travel Car Toilet Plastic (키워드: adult)
-- Factory Wholesale 20L RV caravan Portable Toilet Plastic Outdoor Camp Adult Toilet Portable Mobile Toilet (키워드: adult)
-- 2-section Adjustable Telescopic Mountaineering Pole Outdoor Four-season Hiking Pole Ski Pole for Adults Children (키워드: adult)
-- @1Pcs Full Cleaning Massage Sprayer Shower Head For Men Multifunctional Hygiene Shower Nozzle Dog Cat Foot Wash Tool Shower Head (키워드: shower head for men)
+- Wooden Beading Loom Kit Adjustable Length, Desktop Weaving Tool for DIY Bracelet Necklace Jewelry Making Craft Supply for Adults (키워드: adult)
+- 3 in 1 Nail Stapler Gun With 3000 Staples & Staple Remover Tool Kit Stapler for Wood Fabric Stapler Home Repair DIY Tool Kit (키워드: gun)
+- Model Building Tool Kit, Professional Gundam Assembly & Polishing Set, Ideal for Gundam Military Models, Hobby DIY Craft Making (키워드: gun)
+- Quick-Open Folding Knife G10 Handle Self-Locking EDC Pocket Knife Clip Point Blade for Camping Fishing Outdoor Survival Gear (키워드: knife)
+- 24in1 Multitool All In One Multi Function Gear With Knife Pliers 11 Bits Camping Backpacking Survival Handheld Disassembly Tool (키워드: knife)
+- BM Sibert Bushcraft Knife 162 Fixed Knife S30V Satin Blade G10 Handles Outdoor Camping Hunting Survival EDC Straight Knives (키워드: knife)
+- Fixed Blade Hunting Knife Full Tang Survival Tool with Sheath, Ergonomic Ring Handle Stainless Steel Blade for Camping Hiking Bushcraft Field Processing Outdoor EDC Utility Gear for Adventure Activities (키워드: knife)
+- Happy Halloween Cosplay Hat Joker Cap Adult Party Gifts Props Accessory Amzing Fuuny Colorful Clown Dress Up (키워드: adult)
+- Korean Style Sequin Jazz Hat Adult Children Performance Dance Birthday Cap Black Sequin Party Hat Children Festival Hat (키워드: adult)
+- 60kw  CCS2+CHAdeMO OCPP Fast Car EV Charger Station New Energy Charging Pile with CCS2 Dual Guns Floor-Mounted Charging Piles (키워드: gun)
 검색오염 제거 상품
-- 360° Rotation 3‑In‑1 Suction Cup Magnetic Phone Holder Multi‑Angle Adjustable Foldable Magnet Phone Stand Desktop Bracket New (living, 카테고리 관련 단서 없음)
-- Trailer Accessory Pintle Hook Pintle Hitches Receiver Hook Heavy Duty Hitch Mount Fits for Trailer Parts Off-road Vehicles (car, 카테고리 관련 단서 없음)
-- HOT games Watch Dogs 2 Dedsec  Phone Case For Samsung S26 S25 S24 S23 S22 S21 S20 Ultra Note20 Soft black Shockproof Cover (pet, 카테고리 관련 단서 없음)
-- Pajama Set My Melody 2026 Summer New Women's Short Sleeved Shorts Beautiful Girls Can Wear Outerwear Home Clothes Set Cute Sweet (beauty, 카테고리 관련 단서 없음)
-- Trendy Leopard Print Front‑Closure Triangle Bralette For Women Push‑Up Support Beautiful‑Back Comfortable Everyday & Date Bra (beauty, 카테고리 관련 단서 없음)
-- Women's Sports Fitness Yoga Suit Set Breathable Elastic Shorts Peach Bottom Smiling Face Design Beautiful Back Bra Yoga Pant (beauty, 카테고리 관련 단서 없음)
-- Funny Granny Underwear Beautiful Butterfly Gag Gift Granny Panties (beauty, 카테고리 관련 단서 없음)
-- Women's Comfort Pajamas Women's Beautiful Roosters Branches And Flowers Background Short Sleeve Set Sleepwear (beauty, 카테고리 관련 단서 없음)
+- NEW Smart Sweeping and Mop Robot Vacuum Cleaner Dry and Wet Mopping Rechargeable Robot Home Appliance with Humidifying Spray (electronics, 카테고리 관련 단서 없음)
+- NEW 2800PA 3-in-1 RS800 With Remote Control&APP Super Quiet Smart Robot Vacuum Cleaner Wet&dry Mopping Floor Home Appliance (electronics, 카테고리 관련 단서 없음)
+- JIMIHOME Voltage Detector Smart Non-contact Tester Pen Meter 12-250V AC/DC Electric Sensor Multifunctional Testing Tools (electronics, 카테고리 관련 단서 없음)
+- 100ml Hotel Essential Oil Aromatic Oil Hotels Pure Fragrance Oil Electric Smell For Hotel Air Freshener Device Aromatic Device (electronics, 카테고리 관련 단서 없음)
+- Home Assistant Green Smart Hub, Privacy-Focused Home Automation Controller, Plug and Play Network Gateway (electronics, 카테고리 관련 단서 없음)
+- 5pcs Red Mini Toggle Switch SPDT DPDT 2 3 Position ON-ON ON-OFF-ON with Waterproof Cap MTS-102 103 202 203 302 303 402 403 (electronics, 카테고리 관련 단서 없음)
+- Smart Ring Sizing Kit Ring Measurement Tool 7 Sample Ring Size Before You Buy The Smart Ring Find The Ring Size Sizes 7 To 13 (electronics, 카테고리 관련 단서 없음)
+- Wooden Shuffleboard Brush Solid Wood Shuffleboard Table Brush Maintenance Tool Safe on Surfaces Recreation Gear Easy to Clean (living, 카테고리 관련 단서 없음)
+- Solid Wood Stackable Staircase Step Lights Natural Oak Finish Recessed LED Glass Railing Customizable Indoor Villa Modern Homes (living, 카테고리 관련 단서 없음)
+- Bee Themed DIY Fabric Art Kit with Frame & Tools Fabric Mosaic Wall Art Craft Set Handmade No-Sew Fabric Poke Art Kit Home Decor (hobby, 카테고리 관련 단서 없음)
+- Leather Working Kit, Leather Working Tools and Crafting Kit with Custom Storage Bag, Engraving, Cutting, Sewing, Stamping, Sanding Supplies for DIY Handicraft Making and Repair (hobby, 카테고리 관련 단서 없음)
+- 120 X60cm / 180 X90cm Blackjack Poker Table Mat Board Games Party Rubber Mat Entertainment Accessories (hobby, 카테고리 관련 단서 없음)
+- Haurchefant Greystone Zenos Yae Galvus Cosplay Anime Standing Sign Indicative Board Prop Acrylic Stand Figure Accessories Fans (hobby, 카테고리 관련 단서 없음)
+- Honkai: Star Rail Herta Anaxagoras Anime Quicksand Mahjong Acrylic Drift Sand Standing Board Cospaly Collect Gift Cartoon (hobby, 카테고리 관련 단서 없음)
+- Thickened Texas Hold'em Poker Table Mat Casino Rubber Mat Portable Mahjong Board Games Tablecloth Entertainment Accessories (hobby, 카테고리 관련 단서 없음)
+- Multi-sizes Casino Texas Hold'em Poker Table Mat Rubber Mat Portable Mahjong Board Games Tablecloth Entertainment Accessories (hobby, 카테고리 관련 단서 없음)
+- Thickened Solid Tablecloth Rubber Round Table Mat Party Table Deco Cover Pad Poker Mahjong Board Games Table Mat Accessories (hobby, 카테고리 관련 단서 없음)
+- Professional Casino Texas Hold'em Poker Table Mat Rubber Mat Portable Mahjong Board Games Tablecloth Entertainment Accessories (hobby, 카테고리 관련 단서 없음)
+- 1pc，Surprise mystery box with a 100% winning rate, randomly containing one of the men's watches displayed in the image. This is# (fashion, 카테고리 관련 단서 없음)
+- 2pcs Foldable Phone Stand Spring Buckle Keychain Portable Travel Hands Free Holder For Smartphone Video Binge Watching (fashion, 카테고리 관련 단서 없음)
+- AP03 PM3-75LK Smart Cooling AC to DC Converter 75A Power Supply Battery Charger for RV Use (car, 카테고리 관련 단서 없음)
+- IP67 Waterproof 29.2V 180A On-Board Smart Battery Charger for Electric Cars Hybrid Marine Vehicles OBC for Hybrid Hybrid Marine (car, 카테고리 관련 단서 없음)
+- 5Pcs Lightweight Transparent Plastic Juice Bottles with Caps Small Reusable Milk Drink Containers for Travel Juicing Fridge (pet, 카테고리 관련 단서 없음)
+- Vacuum Storage Bags, Space Saver Seal Bags For Clothing, Travel Luggage, Blankets, Comforters, Pillows, Clothes Storage.36 Comb (pet, 카테고리 관련 단서 없음)
+- Tr21-4 to W21.8 Adapter Dual Outlet Carbonation System Adapter CO2 Cylinder Connector Metal Construction Gas Accessory Leak (pet, 카테고리 관련 단서 없음)
+- Veterinary Automatic air Warming System Vet Warm Bed for Pets Veterinary Animal Patient air Warming Blanket (pet, 카테고리 관련 단서 없음)
+- Underwear Socks Storage Bag Small and Portable Travel Cosmetics Storage Bag Short Travel Underwear Socks Organizer Bags (beauty, 카테고리 관련 단서 없음)
+- KHAZIX 80/200/400PCS Hydrocolloid Pimple Patches, Invisible Blemish Covers, Ultra-Thin Breathable Waterproof Face Stickers (beauty, 카테고리 관련 단서 없음)
+- 50/150 pcs HITWORKER Flower Pimple Patch, Colorful Flower Shape Patches, 5 Colors, Ultra-Thin Clear-Look Daily Care Stickers (beauty, 카테고리 관련 단서 없음)
+- 250PCS Cute Hydrocolloid Pimple Patches, Heart Star Cat Moon Blemish Cover Stickers for Face, Mixed Shape Spot Patches (beauty, 카테고리 관련 단서 없음)
+- 372PCS Hydrocolloid Acne Pimple Patch, Hydrocolloid Spot Stickers, Covering Zits and Defect, Nighttime Spot Stickers (beauty, 카테고리 관련 단서 없음)
+- Salicylic Acid Acne Drying Lotion Pimple Remover Serum Fade Marks Shrink Pores Oil Control Face Care with Swabs (beauty, 카테고리 관련 단서 없음)
+- Hydrocolloid Acne Patches (240/960 patches per pack) – Invisible, high-quality acne patches containing salicylic acid and (beauty, 카테고리 관련 단서 없음)
+- High Quality Colloidal Acne Patch - Alcohol Free, Non Irritating, High-Quality Salicylic Acid and Tea Tree Oil Acne Patch (beauty, 카테고리 관련 단서 없음)
+- 435 pieces of transparent acne patches, alcohol-free, gentle and non-irritating, for deep cleansing and acne removal (beauty, 카테고리 관련 단서 없음)
 큐레이션 페이지 배정
-hidden   : 91
-value    : 91
-popular  : 91
-random   : 91
-전체 배정      : 364
+hidden   : 82
+value    : 82
+popular  : 82
+random   : 81
+전체 배정      : 327
 미배정 상품    : 0
 ----------------------------------------
