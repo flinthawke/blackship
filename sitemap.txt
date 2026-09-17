@@ -15,7 +15,6 @@ https://blackship.kr/mail/badamail-20260726-214455.html
 https://blackship.kr/mail/badamail-20260802-182123.html
 https://blackship.kr/toolbox/fim.html
 https://blackship.kr/toolbox/fsf.html
-https://blackship.kr/toolbox/fti.html
 https://blackship.kr/1.html
 https://blackship.kr/2.html
 https://blackship.kr/3.html
@@ -432,7 +431,6 @@ https://blackship.kr/en/mail/badamail-20260726-214455.html
 https://blackship.kr/en/mail/badamail-20260802-182123.html
 https://blackship.kr/en/toolbox/fim.html
 https://blackship.kr/en/toolbox/fsf.html
-https://blackship.kr/en/toolbox/fti.html
 https://blackship.kr/en/1.html
 https://blackship.kr/en/2.html
 https://blackship.kr/en/3.html
