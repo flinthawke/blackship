@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>블랙쉽의 여정 | Blackship</title>
+  <meta name="description" content="블랙쉽의 여정">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Blackship">
+  <meta property="og:title" content="블랙쉽의 여정 | Blackship">
+  <meta property="og:description" content="블랙쉽의 여정">
+  <meta property="og:type" content="website">
+  <link rel="alternate" hreflang="ko" href="https://blackship.kr/journey.html">
+  <link rel="alternate" hreflang="en" href="https://blackship.kr/en/journey.html">
+  <link rel="alternate" hreflang="x-default" href="https://blackship.kr/journey.html">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Blackship</a>
+    <nav class="nav">
+
+      <a href="index.html">홈</a>
+       <a href="journey.html">Journey</a>
+      <a href="treasure.html">Treasure</a>
+      <a href="toolbox.html">🧰 공구함</a>
+      <a href="badamail.html">바다메일</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image:url('images/journey.png');background-position:center;background-size:cover;"><div style="visibility:hidden;" aria-hidden="true"><h1>Blackship Treasure</h1><p>인터넷 바다를 항해하며 발견한 쓸 만한 해외직구 상품들을 모아둔 작은 보물섬입니다.</p></div></section><section class="journey-section" style="display:grid;gap:24px">
+      <header><p class="eyebrow">BLACKSHIP JOURNEY</p><h1>블랙쉽의 여정</h1>
+      <p>우리 여기야! 주변 정보는 탐색 데이터를 갱신하면 표시됩니다.</p></header>
+      <section class="card" style="padding:18px"><h2>현재 위치</h2>
+        <p><strong>정박 중</strong> · 37.1669°, 126.4142°</p>
+        <p>출발: 인천항 · 목적지: 파나마</p>
+        <p>현재 항로 이동 거리: 0.0 km · 남은 항로: 15,881.8 km</p>
+        <div role="progressbar" aria-label="항로 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0.0" style="height:12px;background:#c9e1eb;border-radius:8px;overflow:hidden"><div style="width:0.00%;height:100%;background:#187a9d"></div></div>
+        <p>항로 진행률: 0.0%</p>
+        <div id="journey-detail-map" style="width:100%;height:380px;border-radius:10px;overflow:hidden;background:#d9f1fa">
+      <iframe title="Blackship position map" src="https://www.openstreetmap.org/export/embed.html?bbox=126.26418,37.01688,126.56419,37.31688&amp;layer=mapnik&amp;marker=37.166883,126.414185" loading="lazy" style="width:100%;height:100%;border:0"></iframe>
+    </div>
+    <script>(function(){
+      const id="journey-detail-map", route=[[37.166883,126.414185],[36.897194,125.91156],[36.49639,125.875854],[36.08906,125.81543],[35.75097,125.774231],[34.152727,125.57373],[34.104419,127.444583],[34.40691,128.16925],[34.761923,128.916321],[35.0,129.2],[35.429344,129.597473],[35.665533,129.972285],[41.259182,139.744224],[41.363637,140.352539],[41.681992,141.277588],[41.699651,143.401627],[43.2,146.0],[46.196119,153.687693],[47.444876,157.933307],[48.109865,160.194187],[48.324829,160.925037],[48.4755,161.4373],[50.154218,169.78575],[50.2383,170.2039],[50.483925,172.354557],[50.687849,174.140093],[50.0,180.0],[50.0,180.0]], travelled=[[37.166883,126.414185]], ahead=[[37.166883,126.414185],[36.897194,125.91156],[36.49639,125.875854],[36.08906,125.81543],[35.75097,125.774231],[34.152727,125.57373],[34.104419,127.444583],[34.40691,128.16925],[34.761923,128.916321],[35.0,129.2],[35.429344,129.597473],[35.665533,129.972285],[41.259182,139.744224],[41.363637,140.352539],[41.681992,141.277588],[41.699651,143.401627],[43.2,146.0],[46.196119,153.687693],[47.444876,157.933307],[48.109865,160.194187],[48.324829,160.925037],[48.4755,161.4373],[50.154218,169.78575],[50.2383,170.2039],[50.483925,172.354557],[50.687849,174.140093],[50.0,180.0],[50.0,180.0]], position=[37.166883, 126.414185];
+      function render(){
+        if(!window.L) return;
+        const root=document.getElementById(id);
+        if(!root || root.dataset.mapped) return;
+        root.dataset.mapped='1';root.textContent='';
+        const map=L.map(root,{scrollWheelZoom:false}).setView(position,7);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          maxZoom:18,attribution:'&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        if(route.length>1){
+          if(travelled.length>1) L.polyline(travelled,{color:'#16866c',weight:5,opacity:.95}).addTo(map);
+          if(ahead.length>1) L.polyline(ahead,{color:'#087fa7',weight:4,opacity:.85,dashArray:'9 7'}).addTo(map);
+          map.fitBounds(L.latLngBounds(route).extend(position),{padding:[22,22],maxZoom:9});
+        }
+        L.circleMarker(position,{radius:8,color:'#fff',weight:2,fillColor:'#0c6688',fillOpacity:1})
+          .addTo(map).bindPopup('BLACKSHIP · Current position');
+        setTimeout(()=>map.invalidateSize(),100);
+      }
+      if(window.L){render();return;}
+      if(!document.querySelector('link[data-blackship-leaflet]')){
+        const css=document.createElement('link');css.rel='stylesheet';css.dataset.blackshipLeaflet='1';
+        css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(css);
+      }
+      if(!document.querySelector('script[data-blackship-leaflet]')){
+        const js=document.createElement('script');js.dataset.blackshipLeaflet='1';
+        js.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+        js.onload=()=>document.dispatchEvent(new Event('blackship-leaflet-ready'));
+        document.head.appendChild(js);
+      }
+      document.addEventListener('blackship-leaflet-ready',render,{once:true});
+    })();</script>
+        <p><a href="https://www.openstreetmap.org/?mlat=37.166883&amp;mlon=126.414185#map=11/37.166883/126.414185" target="_blank" rel="noopener noreferrer">지도에서 자세히 보기 ↗</a></p>
+      </section>
+      <section><h2>주변 지역 정보</h2><p>주변 장소 정보는 탐색 데이터를 갱신하면 표시됩니다.</p></section>
+      <section><h2>주변 사진</h2><p>아직 저장된 주변 사진이 없습니다.</p></section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>이 페이지는 제휴 링크를 포함할 수 있으며, 구매 시 운영자에게 일정 수수료가 지급될 수 있습니다.</p>
+    <p>가격과 할인율은 변동될 수 있으므로 구매 전 판매 페이지에서 최종 정보를 확인하세요.</p>
+  </footer>
+  <img class="visitor-counter-tracker" src="https://hits.sh/blackship.kr.svg?label=visitors&amp;color=000000&amp;labelColor=000000" alt="" width="1" height="1" aria-hidden="true">
+</body>
+</html>

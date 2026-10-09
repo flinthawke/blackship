@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blackship Treasure</title>
+  <title>Blackship</title>
   <meta name="description" content="실속 있는 해외직구 상품을 선별해 소개합니다.">
   <meta name="robots" content="index, follow">
   <meta property="og:site_name" content="Blackship">
-  <meta property="og:title" content="Blackship Treasure">
+  <meta property="og:title" content="Blackship">
   <meta property="og:description" content="실속 있는 해외직구 상품을 선별해 소개합니다.">
   <meta property="og:type" content="website">
   <link rel="alternate" hreflang="ko" href="https://blackship.kr/index.html">
@@ -22,10 +22,8 @@
     <nav class="nav">
 
       <a href="index.html">홈</a>
-      <a href="hidden.html">💎 숨은 보물</a>
-      <a href="value.html">💰 가성비 보물</a>
-      <a href="popular.html">🔥 인기 보물</a>
-      <a href="random.html">🎲 랜덤 보물</a>
+       <a href="journey.html">Journey</a>
+      <a href="treasure.html">Treasure</a>
       <a href="toolbox.html">🧰 공구함</a>
       <a href="badamail.html">바다메일</a>
     </nav>
@@ -37,62 +35,82 @@
       <h1>Blackship Treasure</h1>
       <p>인터넷 바다를 항해하며 발견한 쓸 만한 해외직구 상품들을 모아둔 작은 보물섬입니다.</p>
     </section>
-    <div class="home-route-grid">
-    <section class="treasure-route">
-      <a class="image-wrap route-image" href="4.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sdf8a3e61525448148b65f5f46fae025aC.jpg" alt="M5Stack ATOM Echo ESP32 프로그래밍 가능한 스마트 스피커 개발 보드 스마트 홈 어시스턴트 홈 음성 제어" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.parentNode.classList.add('image-missing');"></a>
-      <div class="route-copy">
-        <h2>💎 숨은 보물</h2>
-        <p>흔하지 않은 제목과 특징을 Blackship 자체 점수로 골랐습니다.</p>
-        <p class="route-product-title"><a href="4.html">M5Stack ATOM Echo ESP32 프로그래밍 가능한 스마트 스피커 개발 보드 스마트 홈 어시스턴트 홈 음성 제어</a></p>
-        <p class="route-price">₩17,750</p>
-        <a class="buy-button route-button" href="hidden.html">항해하기</a>
+    <style>
+      .home-voyage.journey-ocean { color:#173f53 !important; border:1px solid #80b8d0; border-radius:0; padding:20px; }
+      .home-voyage.journey-ocean h2,
+      .home-voyage.journey-ocean p,
+      .home-voyage.journey-ocean strong,
+      .home-voyage.journey-ocean .eyebrow { color:#173f53 !important; }
+      .home-voyage.journey-ocean a { color:#075f8f !important; text-decoration:underline; }
+    </style>
+    <section class="home-voyage journey-ocean" style="display:grid;gap:16px;background:#d9f1fa">
+      <header><p class="eyebrow">BLACKSHIP JOURNEY</p><h2>오늘 블랙쉽은 어디를 여행하고 있을까?</h2>
+        <p><strong>정박 중</strong> · 현재 위치: 37.1669°, 126.4142°</p></header>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;align-items:start">
+        <div id="journey-home-map" style="width:100%;height:300px;border-radius:10px;overflow:hidden;background:#d9f1fa">
+      <iframe title="Blackship position map" src="https://www.openstreetmap.org/export/embed.html?bbox=126.26418,37.01688,126.56419,37.31688&amp;layer=mapnik&amp;marker=37.166883,126.414185" loading="lazy" style="width:100%;height:100%;border:0"></iframe>
+    </div>
+    <script>(function(){
+      const id="journey-home-map", route=[[37.166883,126.414185],[36.897194,125.91156],[36.49639,125.875854],[36.08906,125.81543],[35.75097,125.774231],[34.152727,125.57373],[34.104419,127.444583],[34.40691,128.16925],[34.761923,128.916321],[35.0,129.2],[35.429344,129.597473],[35.665533,129.972285],[41.259182,139.744224],[41.363637,140.352539],[41.681992,141.277588],[41.699651,143.401627],[43.2,146.0],[46.196119,153.687693],[47.444876,157.933307],[48.109865,160.194187],[48.324829,160.925037],[48.4755,161.4373],[50.154218,169.78575],[50.2383,170.2039],[50.483925,172.354557],[50.687849,174.140093],[50.0,180.0],[50.0,180.0]], travelled=[[37.166883,126.414185]], ahead=[[37.166883,126.414185],[36.897194,125.91156],[36.49639,125.875854],[36.08906,125.81543],[35.75097,125.774231],[34.152727,125.57373],[34.104419,127.444583],[34.40691,128.16925],[34.761923,128.916321],[35.0,129.2],[35.429344,129.597473],[35.665533,129.972285],[41.259182,139.744224],[41.363637,140.352539],[41.681992,141.277588],[41.699651,143.401627],[43.2,146.0],[46.196119,153.687693],[47.444876,157.933307],[48.109865,160.194187],[48.324829,160.925037],[48.4755,161.4373],[50.154218,169.78575],[50.2383,170.2039],[50.483925,172.354557],[50.687849,174.140093],[50.0,180.0],[50.0,180.0]], position=[37.166883, 126.414185];
+      function render(){
+        if(!window.L) return;
+        const root=document.getElementById(id);
+        if(!root || root.dataset.mapped) return;
+        root.dataset.mapped='1';root.textContent='';
+        const map=L.map(root,{scrollWheelZoom:false}).setView(position,7);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          maxZoom:18,attribution:'&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        if(route.length>1){
+          if(travelled.length>1) L.polyline(travelled,{color:'#16866c',weight:5,opacity:.95}).addTo(map);
+          if(ahead.length>1) L.polyline(ahead,{color:'#087fa7',weight:4,opacity:.85,dashArray:'9 7'}).addTo(map);
+          map.fitBounds(L.latLngBounds(route).extend(position),{padding:[22,22],maxZoom:9});
+        }
+        L.circleMarker(position,{radius:8,color:'#fff',weight:2,fillColor:'#0c6688',fillOpacity:1})
+          .addTo(map).bindPopup('BLACKSHIP · Current position');
+        setTimeout(()=>map.invalidateSize(),100);
+      }
+      if(window.L){render();return;}
+      if(!document.querySelector('link[data-blackship-leaflet]')){
+        const css=document.createElement('link');css.rel='stylesheet';css.dataset.blackshipLeaflet='1';
+        css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(css);
+      }
+      if(!document.querySelector('script[data-blackship-leaflet]')){
+        const js=document.createElement('script');js.dataset.blackshipLeaflet='1';
+        js.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+        js.onload=()=>document.dispatchEvent(new Event('blackship-leaflet-ready'));
+        document.head.appendChild(js);
+      }
+      document.addEventListener('blackship-leaflet-ready',render,{once:true});
+    })();</script>
+        <div style="display:grid;gap:12px;min-width:0">
+          <p><strong>여정:</strong> 인천항 → 파나마</p>
+          <p><strong>현재 항로 이동 거리:</strong> 0.0 km · 남은 거리: 15,881.8 km</p>
+          <div role="progressbar" aria-label="항로 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0.0" style="height:10px;background:#b8dce9;border-radius:8px;overflow:hidden"><div style="width:0.00%;height:100%;background:#187a9d"></div></div>
+          <p>항로 진행률: 0.0%</p>
+          <p>지금 이 위치에서 새로운 세상을 탐험하고 있습니다.</p>
+          
+          <p><a href="journey.html">우리 여기야! →</a></p>
+        </div>
       </div>
+    </section><section class="home-voyage">
+      <a href="treasure.html" style="display:block;color:inherit;text-decoration:none;">
+        <p class="eyebrow">⚓ TREASURE</p>
+        <h2>오늘도 검은 돛을 올렸습니다.</h2>
+        <p>보물창고로 들어가기 →</p>
+      </a>
     </section>
-    
-    <section class="treasure-route">
-      <a class="image-wrap route-image" href="65.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sde1066ebaca245168e362ba581e33698m.jpg" alt="[Q] 회전 가능한 방수 벽걸이형 휴대폰 보관함, 터치스크린 기능이 있는 휴대폰 거치대, 욕실용 밀폐형 보관함" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.parentNode.classList.add('image-missing');"></a>
-      <div class="route-copy">
-        <h2>💰 가성비 보물</h2>
-        <p>가격과 할인율을 기준으로 실속 있는 보물을 골랐습니다.</p>
-        <p class="route-product-title"><a href="65.html">[Q] 회전 가능한 방수 벽걸이형 휴대폰 보관함, 터치스크린 기능이 있는 휴대폰 거치대, 욕실용 밀폐형 보관함</a></p>
-        <p class="route-price">₩1,264</p>
-        <a class="buy-button route-button" href="value.html">항해하기</a>
-      </div>
-    </section>
-    
-    <section class="treasure-route">
-      <a class="image-wrap route-image" href="363.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbbec7bebb1844b199f496c2ba0558e93U.jpg" alt="360개의 다채로운 컬러 여드름 패치 – 여드름과 뾰루지를 위한 부드러운 얼굴 커버, 모든 밝은 피부톤부터 베이지색 피부톤까지 적합, 센스풀한 디자인" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.parentNode.classList.add('image-missing');"></a>
-      <div class="route-copy">
-        <h2>🔥 인기 보물</h2>
-        <p>반복 등장과 인기 신호를 바탕으로 골랐습니다.</p>
-        <p class="route-product-title"><a href="363.html">360개의 다채로운 컬러 여드름 패치 – 여드름과 뾰루지를 위한 부드러운 얼굴 커버, 모든 밝은 피부톤부터 베이지색 피부톤까지 적합, 센스풀한 디자인</a></p>
-        <p class="route-price">₩2,060</p>
-        <a class="buy-button route-button" href="popular.html">항해하기</a>
-      </div>
-    </section>
-    
-    <section class="treasure-route">
-      <a class="image-wrap route-image" href="180.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S219a31562fe0462f93ac60586e5867c7w.jpg" alt="아이덴티티 V, 기자, 용병, 야간 경비병, 소설가 코스프레, 애니메이션 Q 버전 아크릴 피규어, 스탠딩 장식, 액세서리, 만화 선물" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.parentNode.classList.add('image-missing');"></a>
-      <div class="route-copy">
-        <h2>🎲 랜덤 보물</h2>
-        <p>오늘의 화물칸에서 무작위로 뽑은 보물입니다.</p>
-        <p class="route-product-title"><a href="180.html">아이덴티티 V, 기자, 용병, 야간 경비병, 소설가 코스프레, 애니메이션 Q 버전 아크릴 피규어, 스탠딩 장식, 액세서리, 만화 선물</a></p>
-        <p class="route-price">₩33,900</p>
-        <a class="buy-button route-button" href="random.html">항해하기</a>
-      </div>
-    </section>
-    </div><section class="home-voyage">
-          <p class="eyebrow">⚓ TODAY'S VOYAGE</p>
-          <h2>오늘도 검은 돛을 올렸습니다.</h2>
-          <p>플린트호크 선장이 인터넷 바다를 항해하며 쓸 만한 보물을 건져 올렸습니다.</p>
-        </section>
     <section class="home-log">
       <p class="eyebrow">CAPTAIN'S LOG</p>
       <h2>⚓ 선장의 바다메일</h2>
-      <div class="home-log-entry"><div class="badamail-date">2026-08-02 18:21:23</div><p>로또 드립은 오늘로 끝~ 왜냐하면 이미 당첨되어 있으니까 파하하하하!</p></div><div class="home-log-entry"><div class="badamail-date">2026-08-02 10:42:12</div><p>또 한번 간드앗~~</p></div><div class="home-log-entry"><div class="badamail-date">2026-07-26 21:44:55</div><p>백숙먹자! 물 올려라!</p></div>
+      <div class="home-log-entry"><div class="badamail-date">2026-08-02 18:21:23</div><p>로또 드립은 오늘로 끝~ 왜냐하면 이미 당첨되어 있으니까 파하하하하!</p></div>
       <a class="home-log-more" href="badamail.html">바다메일 더 보기 →</a>
     </section>
-    <p class="home-update">마지막 보물 갱신: 2026-10-08</p>
+    <section class="home-log">
+      <p class="eyebrow">TOOLBOX</p><h2>플린트의 공구함</h2>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;"><a href="toolbox/ftr.html" style="display:block;flex:1 1 220px;min-width:0;padding:16px;border:1px solid #8885;border-radius:10px;color:inherit;text-decoration:none;"><strong>플린트 텍스트 리플레이서</strong><p style="margin:8px 0 0;">여러 텍스트 파일에 포함된 문자열을 한 번에 찾아 변경하는 도구입니다. 변경 전·후 내용을 자동으로 비교해 보여주며, 실제로 변경되는 파일만 결과 목록에 표시합니다.</p></a><a href="toolbox/ffr.html" style="display:block;flex:1 1 220px;min-width:0;padding:16px;border:1px solid #8885;border-radius:10px;color:inherit;text-decoration:none;"><strong>플린트 파일 리네이머</strong><p style="margin:8px 0 0;">여러 파일의 이름을 한 번에 변경하는 도구입니다. 단순한 문자열 치환뿐 아니라 문자열 삭제, 앞·뒤 문자열 추가, 번호 붙이기, 이름과 번호를 이용한 일괄 변경을 지원합니다.</p></a></div>
+      <a class="home-log-more" href="toolbox.html">공구함 전체 보기 →</a>
+    </section>
   </main>
 
   <footer class="site-footer">
