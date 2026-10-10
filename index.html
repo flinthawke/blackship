@@ -47,7 +47,8 @@
       <header><p class="eyebrow">BLACKSHIP JOURNEY</p><h2>오늘 블랙쉽은 어디를 여행하고 있을까?</h2>
         <p><strong>정박 중</strong> · 현재 위치: 37.4490°, 126.5920°</p></header>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;align-items:start">
-        <div id="journey-home-map" style="position:relative;z-index:0;isolation:isolate;width:100%;height:300px;border-radius:10px;overflow:hidden;background:#d9f1fa">
+        <div style="display:grid;gap:6px;min-width:0;align-content:start">
+          <div id="journey-home-map" style="position:relative;z-index:0;isolation:isolate;width:100%;height:300px;border-radius:10px;overflow:hidden;background:#d9f1fa">
       <a href="https://www.openstreetmap.org/export/embed.html?bbox=126.44200,37.29900,126.74200,37.59900&amp;layer=mapnik&amp;marker=37.449000,126.592000" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;color:#075f8f">지도 열기 ↗</a>
     </div>
     <script>(function(){
@@ -91,6 +92,8 @@
       }
       document.addEventListener('blackship-leaflet-ready',render,{once:true});
     })();</script>
+          <p style="margin:0;text-align:center;font-size:12px;color:#42697b" aria-label="Ctrl + 마우스 휠: 지도 확대·축소">Ctrl + 마우스 휠: 지도 확대·축소</p>
+        </div>
         <div style="display:grid;gap:12px;min-width:0">
           <p><strong>여정:</strong> 인천항 → 다음 목적지 미정</p>
           <p><strong>현재 항로 이동 거리:</strong> 0.0 km · 남은 거리: 0.0 km</p>

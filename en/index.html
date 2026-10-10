@@ -47,7 +47,8 @@
       <header><p class="eyebrow">BLACKSHIP JOURNEY</p><h2>Where is Blackship today?</h2>
         <p><strong>Anchored</strong> · Current position: 37.4490°, 126.5920°</p></header>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;align-items:start">
-        <div id="journey-home-map" style="position:relative;z-index:0;isolation:isolate;width:100%;height:300px;border-radius:10px;overflow:hidden;background:#d9f1fa">
+        <div style="display:grid;gap:6px;min-width:0;align-content:start">
+          <div id="journey-home-map" style="position:relative;z-index:0;isolation:isolate;width:100%;height:300px;border-radius:10px;overflow:hidden;background:#d9f1fa">
       <a href="https://www.openstreetmap.org/export/embed.html?bbox=126.44200,37.29900,126.74200,37.59900&amp;layer=mapnik&amp;marker=37.449000,126.592000" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;color:#075f8f">지도 열기 ↗</a>
     </div>
     <script>(function(){
@@ -91,6 +92,8 @@
       }
       document.addEventListener('blackship-leaflet-ready',render,{once:true});
     })();</script>
+          <p style="margin:0;text-align:center;font-size:12px;color:#42697b" aria-label="Ctrl + mouse wheel: Zoom in/out">Ctrl + mouse wheel: Zoom in/out</p>
+        </div>
         <div style="display:grid;gap:12px;min-width:0">
           <p><strong>Voyage:</strong> 인천항 → Next destination undecided</p>
           <p><strong>Distance traveled:</strong> 0.0 km · Remaining: 0.0 km</p>
