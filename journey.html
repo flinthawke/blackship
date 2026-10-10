@@ -51,8 +51,8 @@
         if(!root || root.dataset.mapped) return;
         root.dataset.mapped='1';root.textContent='';
         const map=L.map(root,{scrollWheelZoom:false}).setView(position,7);
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-          subdomains:'abcd',maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          maxZoom:19,attribution:'&copy; OpenStreetMap contributors'
         }).addTo(map);
         if(route.length>1){
           if(travelled.length>1) L.polyline(travelled,{color:'#16866c',weight:5,opacity:.95}).addTo(map);
