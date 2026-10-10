@@ -114,9 +114,6 @@ main > h1 {
     border: 0;
 }
 
-/* Treasure 카테고리: 마지막 줄에 빈 슬롯이 있어도 상품을 가운데 정렬 */
-.treasure-grid { justify-content: center; }
-
 /* Product Grid */
 .grid {
     display: grid;
