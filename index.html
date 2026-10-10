@@ -58,6 +58,14 @@
         if(!root || root.dataset.mapped) return;
         root.dataset.mapped='1';root.textContent='';
         const map=L.map(root,{scrollWheelZoom:false}).setView(position,7);
+        // 일반 휠은 페이지 스크롤, Ctrl + 휠은 지도 확대·축소에만 사용한다.
+        root.addEventListener('wheel',function(event){
+          if(!event.ctrlKey || event.deltaY===0) return;
+          event.preventDefault();
+          event.stopPropagation();
+          const point=map.mouseEventToContainerPoint(event);
+          map.setZoomAround(point,map.getZoom()+(event.deltaY<0?1:-1));
+        },{passive:false});
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
           maxZoom:19,attribution:'&copy; OpenStreetMap contributors'
         }).addTo(map);
