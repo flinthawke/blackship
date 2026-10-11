@@ -13,7 +13,7 @@ Thumbs.db
 
 # Build Output
 Tools/
-_treasure/
+_transfer/
 badamail.py
 chest_maker.py
 chestkey_maker.py
