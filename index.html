@@ -88,7 +88,7 @@
           L.polyline([travelled[i-1],travelled[i]],{color:'#ef4444',weight:5,opacity:.95}).addTo(map);
         }
         stops.forEach(stop=>L.circleMarker(stop.position,{radius:5,color:'#2563eb',fillColor:'#fff',fillOpacity:1,weight:2}).addTo(map).bindPopup(String(stop.name)));
-        const bounds=whole.length>1?whole:route;
+        const bounds=[...travelled,...(whole.length>1?whole:route)];
         if(bounds.length>1) map.fitBounds(L.latLngBounds(bounds).extend(position),{padding:[22,22],maxZoom:9});
         L.circleMarker(position,{radius:8,color:'#fff',weight:2,fillColor:'#0c6688',fillOpacity:1})
           .addTo(map).bindPopup('BLACKSHIP · Current position');
